@@ -304,12 +304,8 @@ body {
 }
 
 .card-stats {
-    width: 100%;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin-top: 10px;
     color: #fff;
     border-radius: 10px;
 }
@@ -318,11 +314,14 @@ body {
     width: 10%;
     text-align: center;
     margin: 2px;
-    padding: 6px;
+    padding: 2px;
     color: #fff;
     border-radius: 30px 30px 30px 30px;
     box-shadow: 2px 2px 4px #000;
     outline: 3px solid #000;
     background-color: purple;
     font-size: 10px;
+    position: relative;
+    bottom:170px;
+    left: 236px;
 }
