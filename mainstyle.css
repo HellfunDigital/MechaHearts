@@ -302,3 +302,30 @@ body {
     z-index: 1;
     color: #fff
 }
+
+/* Style for the card-stats container */
+.card-stats {
+    width: 100%; /* width of the card-stats should be same as card-L */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Style for individual stat divs */
+.card-stats > div {
+    width: 10%; /* adjust the width of stat divs according to the number of stats you have */
+    text-align: center;
+    margin: 2px;
+    padding: 6px;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    background-color: purple;
+    font-size: 10px;
+}
