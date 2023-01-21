@@ -1,0 +1,304 @@
+body {
+    background-color: #000
+}
+
+.home-page,.nav-bar {
+    align-items: center;
+    padding: 1em
+}
+
+.home-page {
+    text-shadow: 2px 2px 4px #000;
+    justify-content: center;
+    background-image: linear-gradient(to right,#f0f2f0,#000c40);
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    background: repeating-linear-gradient(0deg,#606dbc,#606dbc 10px,#465298 200px,#465298 600px)
+}
+
+.nav-bar {
+    border-radius: 10px 10px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background: repeating-linear-gradient(180deg,#606dbc,#606dbc 10px,#465298 75px,#465298 75px);
+    outline: 1px solid #000;
+    box-shadow: 2px 2px 4px #000
+}
+
+.nav-bar img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    border-radius: 50%
+}
+
+.nav-bar ul {
+    display: flex;
+    font-weight: 700
+}
+
+.nav-bar a:hover,.quick-links a:hover {
+    color: #4caf50
+}
+
+.nav-bar li {
+    margin-left: 1em
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none
+}
+
+.featured-cards {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1em
+}
+
+.featured-cards h2 {
+    margin-bottom: .8em
+}
+
+.card-container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: relative
+}
+
+.card-L,.featured-cards h2 {
+    text-align: center;
+    position: relative
+}
+
+.card-L {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314906235015269/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_8f2fdc2e-8820-4303-bd30-6a5d98a136be.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.card-name-L,.card-rarity-L {
+    font-size: 20px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 0 10px 10px 0
+}
+
+.card-name-L {
+    outline: 3px solid #000;
+    font-weight: 700;
+    width: 80%
+}
+
+.card-rarity-L {
+    position: relative;
+    top: -110px;
+    position: inherent;
+    z-index: 1;
+    width: 10%
+}
+
+.card-R,.card-name-R,.card-rarity-L {
+    outline: 3px solid #000
+}
+
+.card-R {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0 1em;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    position: relative;
+    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063381310728568922/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_fc64e06f-864b-4a6d-9140-5e3e0650be7f.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.card-name-R {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    width: 80%;
+    background-color: gold;
+    border-radius: 0 10px 10px 0
+}
+
+.card-U,.card-rarity-R {
+    outline: 3px solid #000;
+    position: relative
+}
+
+.card-rarity-R {
+    top: -110px;
+    font-size: 20px;
+    position: inherent;
+    background-color: gold;
+    z-index: 1;
+    color: #fff;
+    width: 10%;
+    border-radius: 0 10px 10px 0
+}
+
+.card-U {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0 1em;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314047161864272/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_ac86d764-a9f8-4f6a-b7d4-989c4a6ddc5f.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.card-name-U,.card-rarity-U {
+    outline: 3px solid #000;
+    font-size: 20px;
+    background-color: #00f;
+    color: #fff;
+    border-radius: 0 10px 10px 0
+}
+
+.card-name-U {
+    font-weight: 700;
+    width: 80%
+}
+
+.card-rarity-U {
+    position: relative;
+    top: -105px;
+    position: inherent;
+    z-index: 1;
+    width: 10%
+}
+
+.card-C,.quick-links a {
+    transition: all .3s ease-in-out
+}
+
+.card-C {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0 1em;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    position: relative;
+    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063384691966754827/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_a70ec374-3fc7-4310-b3a3-59b3bff4794e.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.card-name-C,.card-rarity-C {
+    outline: 3px solid #000;
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 0 10px 10px 0
+}
+
+.card-name-C {
+    width: 80%;
+    font-weight: 700
+}
+
+.card-rarity-C {
+    position: relative;
+    top: -105px;
+    position: inherent;
+    z-index: 1;
+    width: 10%
+}
+
+.card-C:hover,.card-L:hover,.card-R:hover,.card-U:hover {
+    transform: scale(1.05)
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    outline: 2px solid #fff
+}
+
+.card p {
+    margin: 10px 0;
+    background-color: transparent
+}
+
+.news-updates {
+    width: 100%;
+    margin-bottom: 1em
+}
+
+.news-updates h2 {
+    text-align: center
+}
+
+.nav-bar ul,.news-updates ul,.quick-links ul {
+    list-style-type: none;
+    padding: 0
+}
+
+.news-updates h2,.news-updates li,.quick-links h2,.quick-links li {
+    margin-bottom: .5em;
+    text-shadow: 2px 2px 4px #000
+}
+
+.quick-links {
+    width: 100%;
+    text-align: center
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none
+}
+
+.card-name,.card-type {
+    font-weight: 700;
+    font-size: 50px;
+    color: gold
+}
+
+.card-type {
+    position: relative;
+    top: -13px;
+    padding: 1px;
+    width: 35%;
+    font-size: 10px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0 10px 10px 0
+}
+
+.card-rarity {
+    font-size: 40px;
+    position: inherent;
+    background-color: transparent;
+    z-index: 1;
+    color: #fff
+}
