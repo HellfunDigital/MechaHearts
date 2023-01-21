@@ -1,2 +1,2 @@
-# MechaHearts
-Digital TCG
+# MechaHearts - Digital TCG
+
