@@ -216,7 +216,7 @@ body {
 .card-name-C,.card-rarity-C {
     outline: 3px solid #000;
     font-size: 20px;
-    background-color: green;
+    background-color: grey;
     color: #fff;
     border-radius: 0 10px 10px 0
 }
@@ -401,3 +401,19 @@ body {
       z-index: 1;
       text-shadow: none;
       }
+
+      .setno-L {
+        position: relative;
+        bottom: -210px;
+        left: 0px;
+        font-weight: 700;
+        z-index: 1;
+        }
+
+  .setno-R {
+    position: relative;
+    bottom: 254px;
+    left: 0px;
+    font-weight: 700;
+    z-index: 1;
+    }
