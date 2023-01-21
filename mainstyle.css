@@ -312,6 +312,7 @@ body {
 }
 
 .card-stats > div {
+    opacity: 0.8;
     width: 10%;
     text-align: center;
     margin: 5px;
@@ -330,12 +331,14 @@ body {
 }
 
 .card-stats > div:hover {
+    opacity: 1;
     z-index: 2;
     transform: scale(1.3);
     transition: transform 0.2s ease-in-out;
 }
 
 .stat-pilot-slot {
+  opacity: 0.8;
   flex-wrap: wrap;
   justify-content: center;
   width: 10%;
@@ -356,6 +359,7 @@ body {
   }
 
   .stat-equipment-slot {
+    opacity: 0.8;
     flex-wrap: wrap;
     justify-content: center;
     width: 10%;
@@ -376,6 +380,7 @@ body {
     }
 
     .stat-upgrade-slot {
+      opacity: 0.8;
       flex-wrap: wrap;
       justify-content: center;
       width: 10%;
