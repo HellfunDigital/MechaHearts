@@ -417,3 +417,19 @@ body {
     font-weight: 700;
     z-index: 1;
     }
+
+    .setno-U {
+      position: relative;
+      bottom: -210px;
+      left: 0px;
+      font-weight: 700;
+      z-index: 1;
+      }
+
+      .setno-C {
+        position: relative;
+        bottom: -210px;
+        left: 0px;
+        font-weight: 700;
+        z-index: 1;
+        }
