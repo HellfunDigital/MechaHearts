@@ -324,4 +324,11 @@ body {
     position: relative;
     bottom:170px;
     left: 236px;
+    z-index: 1;
+}
+
+.card-stats > div:hover {
+    z-index: 2;
+    transform: scale(1.5);
+    transition: transform 0.2s ease-in-out;
 }
