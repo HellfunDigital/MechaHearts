@@ -318,22 +318,23 @@ body {
     margin: 5px;
     padding: 2px;
     color: Black;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 0px 0px 20px;
     box-shadow: 2px 2px 4px #000;
     outline: 3px solid #000;
     background-color: Gold;
     font-size: 10px;
     position: relative;
-    bottom:95px;
-    left: 219px;
+    bottom:110px;
+    left: 224px;
     z-index: 1;
     text-shadow: none;
+    transition: transform 0.2s ease-in-out;
 }
 
 .card-stats > div:hover {
     opacity: 1;
     z-index: 2;
-    transform: scale(1.3);
+    transform: scale(1.3) translateX(-4px);
     transition: transform 0.2s ease-in-out;
 }
 
