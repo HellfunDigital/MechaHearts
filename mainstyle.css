@@ -308,6 +308,7 @@ body {
     justify-content: center;
     color: #fff;
     border-radius: 10px;
+    font-weight: 700;
 }
 
 .card-stats > div {
@@ -315,16 +316,17 @@ body {
     text-align: center;
     margin: 5px;
     padding: 2px;
-    color: #fff;
+    color: Black;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 4px #000;
     outline: 3px solid #000;
-    background-color: purple;
+    background-color: Gold;
     font-size: 10px;
     position: relative;
-    bottom:69px;
+    bottom:95px;
     left: 219px;
     z-index: 1;
+    text-shadow: none;
 }
 
 .card-stats > div:hover {
@@ -347,9 +349,10 @@ body {
   background-color: grey;
   font-size: 10px;
   position: relative;
-  bottom: 377px;
+  bottom: 400px;
   left: 0px;
   z-index: 1;
+  text-shadow: none;
   }
 
   .stat-equipment-slot {
@@ -366,9 +369,10 @@ body {
     background-color: grey;
     font-size: 10px;
     position: relative;
-    bottom: 373px;
+    bottom: 397px;
     left: 0px;
     z-index: 1;
+    text-shadow: none;
     }
 
     .stat-upgrade-slot {
@@ -385,7 +389,8 @@ body {
       background-color: grey;
       font-size: 10px;
       position: relative;
-      bottom: 369px;
+      bottom: 394px;
       left: 0px;
       z-index: 1;
+      text-shadow: none;
       }
