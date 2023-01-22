@@ -105,7 +105,6 @@ body {
 .card-rarity-L {
     position: relative;
     top: -110px;
-    position: inherent;
     z-index: 1;
     width: 10%
 }
@@ -311,6 +310,8 @@ body {
     color: #fff;
     border-radius: 10px;
     font-weight: 700;
+    width: 100%;
+    height: 100;
 }
 
 .card-stats > div {
@@ -405,7 +406,7 @@ body {
 
       .setno-L {
         position: relative;
-        bottom: -210px;
+        bottom: -120px;
         left: 0px;
         font-weight: 700;
         z-index: 1;
@@ -413,7 +414,7 @@ body {
 
   .setno-R {
     position: relative;
-    bottom: 254px;
+    bottom: 256px;
     left: 0px;
     font-weight: 700;
     z-index: 1;
@@ -434,3 +435,18 @@ body {
         font-weight: 700;
         z-index: 1;
         }
+
+
+        .card-text {
+          position: relative;
+          left: 13px;
+          bottom: -120px;
+          outline: 3px solid #000;
+          background-color: purple;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          opacity: 0.8;
+          width: 90%;
+          border-radius: 3px 3px 3px 3px;
+          font-weight: 700;
+  }
