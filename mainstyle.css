@@ -415,33 +415,37 @@ body {
       }
 
       .setno-L {
+        font-size: 10px;
         position: relative;
-        bottom: -120px;
-        left: 0px;
+        bottom: -130px;
+        left: 55px;
         font-weight: 700;
         z-index: 1;
         }
 
   .setno-R {
+    font-size: 10px;
     position: relative;
-    bottom: -70px;
-    left: 0px;
+    bottom: -80px;
+    left: 55px;
     font-weight: 700;
     z-index: 1;
     }
 
     .setno-U {
+      font-size: 10px;
       position: relative;
-      bottom: -123px;
-      left: 0px;
+      bottom: -130px;
+      left: 55px;
       font-weight: 700;
       z-index: 1;
       }
 
       .setno-C {
+        font-size: 10px;
         position: relative;
-        bottom: -123px;
-        left: 0px;
+        bottom: -130px;
+        left: 55px;
         font-weight: 700;
         z-index: 1;
         }
