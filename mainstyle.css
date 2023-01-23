@@ -587,7 +587,7 @@ button {
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 540px;
+  max-height: 490px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
@@ -597,14 +597,10 @@ button {
 
 }
 
-.card-collection p {
-margin-top: 0px;
-}
-
 .card-item img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 2;
-    outline: 2px solid white;
+    outline: 3px solid white;
     box-shadow: 0 0 15px blue, 0 0 20px cyan;
 }
 
