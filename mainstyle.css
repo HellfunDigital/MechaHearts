@@ -562,3 +562,11 @@ button {
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
 }
+
+.card-item img {
+    width: 150px;
+    height: 150px;
+    margin: 0 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+}
