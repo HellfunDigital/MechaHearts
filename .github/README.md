@@ -130,6 +130,6 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 
 Pilot cards, Equipment, and Upgrade cards can only be used if there is a slot available on the mecha card. Each mecha card has a limited number of slots for Pilots, Equipment, and Upgrade. In this way, we can limit the number of powerful cards that a player can use in a game, making the game more balanced.
 
-## MechaBucks
+## Card Packs
 
-The game also features a MechaBucks system, where players can use real money to purchase MechaBucks. These MechaBucks can then be used to purchase packs of cards. Each pack contains a random selection of cards from the available sets. This is an optional feature, and players can also earn cards through gameplay.
+The game also features a gatcha system, where players can use real money to purchase car packs. Each pack contains a random selection of cards from the available sets. This is an optional feature, and players can also earn cards through gameplay.
