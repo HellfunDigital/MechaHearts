@@ -418,36 +418,40 @@ body {
         font-size: 10px;
         position: relative;
         bottom: -130px;
-        left: 55px;
+        left: 50px;
         font-weight: 700;
         z-index: 1;
+        opacity: 0.8;
         }
 
   .setno-R {
     font-size: 10px;
     position: relative;
     bottom: -80px;
-    left: 55px;
+    left: 50px;
     font-weight: 700;
     z-index: 1;
+    opacity: 0.8;
     }
 
     .setno-U {
       font-size: 10px;
       position: relative;
       bottom: -130px;
-      left: 55px;
+      left: 50px;
       font-weight: 700;
       z-index: 1;
+      opacity: 0.8;
       }
 
       .setno-C {
         font-size: 10px;
         position: relative;
         bottom: -130px;
-        left: 55px;
+        left: 50px;
         font-weight: 700;
         z-index: 1;
+        opacity: 0.8;
         }
 
 
