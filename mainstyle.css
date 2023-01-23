@@ -562,7 +562,7 @@ button {
 .mecha-team img {
     width: 200px;
     height: 300px;
-    margin: 0 1em;
+    margin: 5px 1em;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
 }
