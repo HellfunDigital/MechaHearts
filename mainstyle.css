@@ -422,7 +422,7 @@ body {
 
     .setno-U {
       position: relative;
-      bottom: -210px;
+      bottom: -123px;
       left: 0px;
       font-weight: 700;
       z-index: 1;
@@ -430,14 +430,14 @@ body {
 
       .setno-C {
         position: relative;
-        bottom: -210px;
+        bottom: -123px;
         left: 0px;
         font-weight: 700;
         z-index: 1;
         }
 
 
-        .card-text {
+        .card-text-L {
           position: relative;
           left: 13px;
           bottom: -120px;
@@ -447,6 +447,34 @@ body {
           padding-bottom: 10px;
           opacity: 0.8;
           width: 90%;
-          border-radius: 3px 3px 3px 3px;
+          border-radius: 30px 30px 30px 30px;
           font-weight: 700;
   }
+
+  .card-text-U {
+    position: relative;
+    left: 13px;
+    bottom: -120px;
+    outline: 3px solid #000;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+    width: 90%;
+    border-radius: 30px 3px 30px 3px;
+    font-weight: 700;
+}
+
+.card-text-C {
+  position: relative;
+  left: 13px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 3px 3px 3px 3px;
+  font-weight: 700;
+}
