@@ -18,33 +18,33 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 ### ✺ Legendary 
 #### ☸ Mecha cards:
 
-* "Omega-Mech" (⚔️: 15, 🛡️: 12, ⏱️: 8, 🍀: 4, ❤️: 25, 👨‍✈️: 1, 🛠️: 3, ⚙️: 3)
+- "Omega-Mech" (⚔️: 15, 🛡️: 12, ⏱️: 8, 🍀: 4, ❤️: 25, 👨‍✈️: 1, 🛠️: 3, ⚙️: 3)
 
 #### 〷 Pilot cards:
 
-"Apex Pilot" (Boost ⚔️ & 🛡️ by 4)
-"Horizon Grand Admiral" (Boosts ⚔️ & 🛡️ by 3, +1 ⏱️)
-"Red Wolves Colonel" (Boosts ⚔️ by 2 and 🛡️ by 3, +2 ⚔️)
-"Aurora General" (Boosts 🛡️ by 3 and ⏱️ by 2, +1 🛡️)
+- "Apex Pilot" (Boost ⚔️ & 🛡️ by 4)
+- "Horizon Grand Admiral" (Boosts ⚔️ & 🛡️ by 3, +1 ⏱️)
+- "Red Wolves Colonel" (Boosts ⚔️ by 2 and 🛡️ by 3, +2 ⚔️)
+- "Aurora General" (Boosts 🛡️ by 3 and ⏱️ by 2, +1 🛡️)
 
 #### ♆  Equipment cards:
 
-"Quantum Cannon" (⚔️ +3, +2 ⏱️)
-"Proton Shield" (🛡️ +4, +1 🍀)
+- "Quantum Cannon" (⚔️ +3, +2 ⏱️)
+- "Proton Shield" (🛡️ +4, +1 🍀)
 
 #### ＋ Upgrade cards:
 
-"Advanced AI" (🍀 +2, +2 all stats)
-"Hyperdrive" (⏱️ +3, +1 ⚔️)
+- "Advanced AI" (🍀 +2, +2 all stats)
+- "Hyperdrive" (⏱️ +3, +1 ⚔️)
 
 ### ✭ Rare 
-☸ Mecha cards:
+#### ☸ Mecha cards:
 
 "Goliath-Class Mech" (⚔️: 10, 🛡️: 8, ⏱️: 5, 🍀: 2, ❤️: 15, 👨‍✈️: 1, 🛠️: 2, ⚙️: 2)
 "Titan-Class Mech" (⚔️: 8, 🛡️: 10, ⏱️: 4, 🍀: 3, ❤️: 20, 👨‍✈️: 1, 🛠️: 2, ⚙️: 2)
 "Colossus-Class Mech" (⚔️: 12, 🛡️: 6, ⏱️: 3, 🍀: 1, ❤️: 10, 👨‍✈️: 1, 🛠️: 1, ⚙️: 1)
 
-〷 Pilot cards:
+#### 〷 Pilot cards:
 
 "Master Pilot" (Boost ⚔️ & 🛡️ by 3)
 "Ace Pilot" (Boost ⚔️ by 3 & 🛡️ by 2)
@@ -52,7 +52,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Red Wolves Sergeant" (Boost ⚔️ by 1 & 🛡️ by 2, +1 ⏱️)
 "Aurora Commanders" (Boost ⚔️ by 2 & ⏱️ by 1, +1 ⏱️)
 
-♆ Equipment cards:
+#### ♆ Equipment cards:
 
 "Plasma Cannon" (⚔️ +2)
 "Energy Shield" (🛡️ +3)
@@ -60,7 +60,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Nano Armor" (🛡️ +2)
 "Jetpack" (⏱️ +1)
 
-＋ Upgrade cards:
+#### ＋ Upgrade cards:
 
 "Reinforced Plating" (🛡️ +2)
 "Power Surge" (⚔️ +3)
@@ -69,13 +69,13 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Targeting Array" (🍀 +1)
 
 ### ◈ Uncommon 
-☸ Mecha cards:
+#### ☸ Mecha cards:
 
 "Warrior-Class Mech" (⚔️: 9, 🛡️: 8, ⏱️: 6, 🍀: 2, ❤️: 12, 👨‍✈️: 1, 🛠️: 1, ⚙️: 1)
 "Assassin-Class Mech" (⚔️: 7, 🛡️: 6, ⏱️: 9, 🍀: 3, ❤️: 15, 👨‍✈️: 1, 🛠️: 1, ⚙️: 1)
 "Knight-Class Mech" (⚔️: 8, 🛡️: 9, ⏱️: 7, 🍀: 2, ❤️: 10, 👨‍✈️: 1, 🛠️: 1, ⚙️: 1)
 
-〷 Pilot cards:
+#### 〷 Pilot cards:
 
 "Expert Pilot" (Boost ⚔️ & 🛡️ by 2)
 "Veteran Pilot" (Boost ⚔️ by 1 & 🛡️ by 2)
@@ -84,7 +84,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Red Wolves Corporal" (Boost ⚔️ by 1 & ⏱️ by 1)
 "Aurora Ensign" (Boost 🛡️ by 1 & ⏱️ by 1)
 
-♆ Equipment cards:
+#### ♆ Equipment cards:
 
 "Thrusters" (⏱️ +1)
 "Armor Plating" (🛡️ +2)
@@ -94,7 +94,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Power Generator" (⚔️ +2)
 "Boosters" (⏱️ +1)
 
-＋ Upgrade Cards:
+#### ＋ Upgrade Cards:
 
 "Armor Reinforcement" (🛡️ +1)
 "Weapon Upgrade" (⚔️ +1)
@@ -103,7 +103,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Emergency Repair" (❤️ +2)
 
 ### ◉ Common 
-☸ Mecha Cards:
+#### ☸ Mecha Cards:
 
 "Scout-Class Mech" (⚔️: 4, 🛡️: 3, ⏱️: 7, 🍀: 2, ❤️: 8, 👨‍✈️: 0, 🛠️: 1, ⚙️: 0)
 "Worker-Class Mech" (⚔️: 2, 🛡️: 5, ⏱️: 4, 🍀: 1, ❤️: 6, 👨‍✈️: 0, 🛠️: 0, ⚙️: 1)
@@ -111,17 +111,17 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 "Recon-Class Mech" (⚔️: 3, 🛡️: 3, ⏱️: 8, 🍀: 2, ❤️: 7, 👨‍✈️: 1, 🛠️: 0, ⚙️: 0)
 "Patrol-Class Mech" (⚔️: 4, 🛡️: 4, ⏱️: 5, 🍀: 1, ❤️: 8, 👨‍✈️: 0, 🛠️: 1, ⚙️: 1)
 
-〷 Pilot cards:
+#### 〷 Pilot cards:
 
 "Rookie Pilot" (Boost ⚔️ & 🛡️ by 1)
 
-♆ Equipment cards:
+#### ♆ Equipment cards:
 
 "Extra Fuel" (⏱️ +1)
 "Repair Kit" (❤️ +1)
 "Targeting System" (🍀 +1)
 
-＋ Upgrade cards:
+####＋ Upgrade cards:
 
 "Fuel Optimization" (⏱️ +1)
 "Minor Repair" (❤️ +1)
