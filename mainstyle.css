@@ -574,8 +574,8 @@ button {
 }
 
 .card-item img {
-    width: 180px;
-    height: 250px;
+    width: 100px;
+    height: 150px;
     margin: 0 1em;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
