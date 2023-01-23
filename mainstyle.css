@@ -597,8 +597,12 @@ button {
 
 }
 
+.card-collection p {
+margin-top: 0px;
+}
+
 .card-item img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 2;
     outline: 2px solid white;
     box-shadow: 0 0 15px blue, 0 0 20px cyan;
