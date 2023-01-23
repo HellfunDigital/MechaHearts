@@ -121,7 +121,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 - "Repair Kit" (❤️ +1) - MHMU-56
 - "Targeting System" (🍀 +1) - MHMU-57
 
-####＋ Upgrade cards:
+#### ＋ Upgrade cards:
 
 - "Fuel Optimization" (⏱️ +1) - MHMU-58
 - "Minor Repair" (❤️ +1) - MHMU-59
