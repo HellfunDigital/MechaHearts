@@ -83,7 +83,7 @@ body {
     height: 400px;
     min-width: 260px;
     min-height: 400px;
-    margin: 0;
+    margin: 0 1em;
     transition: all .3s ease-in-out;
     background-color: #000;
     border-radius: 10px;
