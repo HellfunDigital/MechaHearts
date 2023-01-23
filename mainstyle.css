@@ -582,11 +582,26 @@ button {
 }
 
 .card-collection {
+  overflow-y: scroll;
+  max-height: 540px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    position: relative
+    position: relative;
 
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4caf50;
 }
