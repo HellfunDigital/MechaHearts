@@ -27,6 +27,7 @@ body {
     justify-content: space-between;
     background: repeating-linear-gradient(180deg,#606dbc,#606dbc 10px,#465298 75px,#465298 75px);
     outline: 1px solid #000;
+    font-family: Arial, sans-serif;
     box-shadow: 2px 2px 4px #000
 }
 
@@ -99,6 +100,7 @@ body {
     font-size: 20px;
     background-color: purple;
     color: #fff;
+    font-family: Arial, sans-serif;
     border-radius: 0 10px 10px 0
 }
 
@@ -142,6 +144,7 @@ body {
     color: #fff;
     width: 80%;
     background-color: gold;
+    font-family: Arial, sans-serif;
     border-radius: 0 10px 10px 0
 }
 
@@ -187,6 +190,7 @@ body {
 
 .card-name-U {
     font-weight: 700;
+    font-family: Arial, sans-serif;
     width: 80%
 }
 
@@ -229,6 +233,7 @@ body {
 
 .card-name-C {
     width: 80%;
+    font-family: Arial, sans-serif;
     font-weight: 700
 }
 
@@ -267,6 +272,7 @@ body {
 
 .nav-bar ul,.news-updates ul,.quick-links ul {
     list-style-type: none;
+    font-family: Arial, sans-serif;
     padding: 0
 }
 
@@ -610,6 +616,7 @@ button:hover{
     width: 100%;
     flex-wrap: wrap;
     position: relative;
+    font-family: Arial, sans-serif;
 
 }
 
