@@ -2,6 +2,7 @@ body {
     background-color: #000;
     background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1055876077282672650/AaronelpisAlso_clean_website_background_texture_fca09412-e603-4d1b-95e7-3e1b2857041e.png);
     background-size: cover;
+    transition: opacity 1s ease-in-out;
 }
 
 .home-page,.nav-bar {
