@@ -732,7 +732,7 @@ button:hover{
 }
 
 h4 {
-    text-decoration: underline;
+    cursor:default;
 }
 
 
