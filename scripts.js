@@ -1,7 +1,5 @@
-import { initializeApp } from "firebase/app";
-import "firebase/auth";
-
 const firebase = require("firebase/app");
+import "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -26,12 +24,23 @@ loginForm.addEventListener("submit", (e) => {
   const password = loginForm["password"].value;
   firebase.auth().signInWithEmailAndPassword(email, password)
     .then(() => {
-      // Redirect the user to a protected page or show a success message
+       // Redirect the user to the profile page
+       window.location.href = "profile.html";
     })
     .catch((error) => {
       // Show an error message
     });
 });
+
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    // User is signed in.
+    window.location.href = "profile.html"; // Redirect to profile page
+  } else {
+    // No user is signed in.
+  }
+});
+
 
 // Initialize the Google Sign-In API with your client ID
 gapi.load('auth2', function() {
@@ -46,7 +55,7 @@ function onSignIn(googleUser) {
 
   // Use the token and profile information to sign in the user
   // using Firebase Authentication
-  firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider.credential(id_token))
+  firebase.auth().signInWithCredential(firebase.auth.GoogleAuthProvider().credential(id_token))
     .then(function(result) {
       // User is signed in
     })
