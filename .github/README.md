@@ -9,6 +9,25 @@ MechaHearts is a digital collectible card game (TCG) featuring mecha pilots and 
 - Customize your deck with a variety of upgrade cards.
 - Regular updates and events to keep the game fresh.
 
+## Pilot, Equipment and Upgrade cards
+
+Pilot cards, Equipment, and Upgrade cards can only be used if there is a slot available on the mecha card. Each mecha card has a limited number of slots for Pilots, Equipment, and Upgrade. In this way, we can limit the number of powerful cards that a player can use in a game, making the game more balanced.
+
+## Card Packs
+
+The game also features a gatcha system, where players can use real money to purchase car packs. Each pack contains a random selection of cards from the available sets. This is an optional feature, and players can also earn cards through gameplay.
+
+## Battle System
+- Players start by selecting a team of 6 mech cards to use in battle.
+- Each card represents a different mech and has its own set of values for attack, defense, speed, luck, and hp.
+- Players can equip pilots, upgrades, and equipment to their mech cards before battle to increase their stats.
+- The number of slots available for equipping pilots, upgrades, and equipment will vary between cards.
+- Players take turns attacking each other, using their mech's attack value to deal damage to the opposing mech's hp.
+- The opposing mech can defend using its defense value to reduce the damage taken.
+- Speed and luck can also play a role in battle, with faster mechs having a higher chance to attack first, and luck determining the likelihood of critical hits or evading attacks.
+- Players can switch out their active mech for one of the other five in their team during their turn
+- The game ends when one player's team of mechs have all been defeated or when a set time limit is up.
+
 ## Card Sets
 - Set #1: Mecha Uprising
 
@@ -127,20 +146,3 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 - "Minor Repair" (❤️ +1) - MHMU-59
 - "Targeting Sensor" (🍀 +1) - MHMU-60
 - "Energy Core" (⚔️ +1) - MHMU-61
-
-Pilot cards, Equipment, and Upgrade cards can only be used if there is a slot available on the mecha card. Each mecha card has a limited number of slots for Pilots, Equipment, and Upgrade. In this way, we can limit the number of powerful cards that a player can use in a game, making the game more balanced.
-
-## Card Packs
-
-The game also features a gatcha system, where players can use real money to purchase car packs. Each pack contains a random selection of cards from the available sets. This is an optional feature, and players can also earn cards through gameplay.
-
-## Battle System
-- Players start by selecting a team of 6 mech cards to use in battle.
-- Each card represents a different mech and has its own set of values for attack, defense, speed, luck, and hp.
-- Players can equip pilots, upgrades, and equipment to their mech cards before battle to increase their stats.
-- The number of slots available for equipping pilots, upgrades, and equipment will vary between cards.
-- Players take turns attacking each other, using their mech's attack value to deal damage to the opposing mech's hp.
-- The opposing mech can defend using its defense value to reduce the damage taken.
-- Speed and luck can also play a role in battle, with faster mechs having a higher chance to attack first, and luck determining the likelihood of critical hits or evading attacks.
-- Players can switch out their active mech for one of the other five in their team during their turn
-- The game ends when one player's team of mechs have all been defeated or when a set time limit is up.
