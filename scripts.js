@@ -119,21 +119,15 @@ createUserWithEmailAndPassword(auth, email, password)
   const playerNameElement = document.getElementById('player-name');
   playerNameElement.textContent = playerName;
 
-  // Reference to the log out button
-  const logOutButton = document.getElementById("log-out-button");
-
-  // Add a click event listener to the log out button
-  logOutButton.addEventListener("click", logOut);
-
-  function logOut() {
+  logOutButton.addEventListener("click", ()=>{
       firebase.auth().signOut().then(function() {
-          // Sign-out successful.
-          window.location.href = "login.html";
-      }).catch(function(error) {
-          // An error happened.
-          console.log(error);
-      });
-  }
+        // Sign-out successful.
+        window.location.href = "login.html";
+    }).catch(function(error) {
+        // An error happened.
+        console.log(error);
+    });
+    });
 
 
 $(document).ready(function(){
@@ -143,3 +137,13 @@ $(document).ready(function(){
         $("body").fadeOut(1000);
     });
 });
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if
+          request.time < timestamp.date(2023, 2, 24);
+    }
+  }
+}
