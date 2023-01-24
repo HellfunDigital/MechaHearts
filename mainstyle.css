@@ -666,6 +666,7 @@ h4 {
   border-radius: 5px;
   border: none;
   box-shadow: 2px 2px 5px black;
+  outline: 2px solid #000;
 }
 
 #login-form input:focus {
