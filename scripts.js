@@ -123,25 +123,18 @@ createUserWithEmailAndPassword(auth, email, password)
   const logOutButton = document.getElementById("log-out-button");
 
   // Add a click event listener to the log out button
-  logOutButton.addEventListener("click", () => {
-    firebase.auth().signOut().then(function() {
-      // Sign-out successful. Redirect to login page or display a message.
-      window.location.href = "login.html"; // Example redirect
-    }).catch(function(error) {
-      // An error happened.
-      console.error(error);
-    });
-  });
+  logOutButton.addEventListener("click", logOut);
 
   function logOut() {
-    firebase.auth().signOut().then(function() {
-        // Sign-out successful.
-        window.location.href = "login.html";
-    }).catch(function(error) {
-        // An error happened.
-        console.log(error);
-    });
-}
+      firebase.auth().signOut().then(function() {
+          // Sign-out successful.
+          window.location.href = "login.html";
+      }).catch(function(error) {
+          // An error happened.
+          console.log(error);
+      });
+  }
+
 
 $(document).ready(function(){
     console.log("script is running");
