@@ -401,6 +401,27 @@ body {
     text-shadow: none;
     }
 
+    .stat-equipment-slot2 {
+      opacity: 0.8;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 10%;
+      text-align: center;
+      margin: 5px;
+      padding: 2px;
+      color: #fff;
+      border-radius: 5px 5px 5px 5px;
+      box-shadow: 2px 2px 4px #000;
+      outline: 2px solid #000;
+      background-color: grey;
+      font-size: 10px;
+      position: relative;
+      bottom: 115px;
+      left: 37px;
+      z-index: 1;
+      text-shadow: none;
+      }
+
     .stat-upgrade-slot {
       opacity: 0.8;
       flex-wrap: wrap;
@@ -416,11 +437,32 @@ body {
       background-color: grey;
       font-size: 10px;
       position: relative;
-      bottom: 72px;
+      bottom: 114px;
       left: 0px;
       z-index: 1;
       text-shadow: none;
       }
+
+      .stat-upgrade-slot2 {
+        opacity: 0.8;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 10%;
+        text-align: center;
+        margin: 5px;
+        padding: 2px;
+        color: #fff;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 2px 2px 4px #000;
+        outline: 2px solid #000;
+        background-color: grey;
+        font-size: 10px;
+        position: relative;
+        bottom: 157px;
+        left: 37px;
+        z-index: 1;
+        text-shadow: none;
+        }
 
       .setno-L {
         font-size: 10px;
