@@ -381,6 +381,11 @@ body {
   text-shadow: none;
   }
 
+  .stat-pilot-slot:hover {
+    transform: scale(1.1) translateX(0px);
+    transition: transform 0.2s ease-in-out;
+  }
+
   .stat-equipment-slot {
     opacity: 0.8;
     flex-wrap: wrap;
@@ -400,6 +405,16 @@ body {
     left: 0px;
     z-index: 1;
     text-shadow: none;
+    }
+
+    .stat-equipment-slot:hover {
+      transform: scale(1.1) translateX(0px);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .stat-equipment-slot2:hover {
+      transform: scale(1.1) translateX(0px);
+      transition: transform 0.2s ease-in-out;
     }
 
     .stat-equipment-slot2 {
@@ -463,6 +478,16 @@ body {
         left: 37px;
         z-index: 1;
         text-shadow: none;
+        }
+
+        .stat-upgrade-slot:hover {
+          transform: scale(1.1) translateX(0px);
+          transition: transform 0.2s ease-in-out;
+        }
+
+        .stat-upgrade-slot2:hover {
+          transform: scale(1.1) translateX(0px);
+          transition: transform 0.2s ease-in-out;
         }
 
       .setno-L {
