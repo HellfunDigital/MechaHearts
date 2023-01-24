@@ -922,3 +922,15 @@ transform: scale(1.1);
     opacity: 0;
   }
 }
+
+.mech-lvl {
+  padding: 4px;
+  position: absolute;
+  left: 168px;;
+  top: 20px;
+  font-size: 12px;
+  background-color: transparent;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 0 10px 10px 0
+}
