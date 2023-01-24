@@ -651,6 +651,7 @@ h4 {
   border-radius: 10px;
   box-shadow: 2px 2px 10px black;
   width: 300px;
+  outline: 1px solid #000;
 }
 
 #login-form label {
