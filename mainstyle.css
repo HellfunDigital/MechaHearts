@@ -661,6 +661,7 @@ h4 {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
 }
 
 .signup-form input[type="submit"] {
@@ -672,6 +673,7 @@ h4 {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  box-shadow: 2px 2px 5px black;
 }
 
 .signup-form input[type="submit"]:hover {
@@ -685,6 +687,7 @@ h4 {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
 }
 
 form a {
