@@ -531,7 +531,14 @@ label {
 button {
   background-color: #fff; /* or any other color value */
   border-radius: 30px 30px 30px 30px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
   margin-top: .4em
+}
+
+button:hover{
+  transform: scale(1.1);
 }
 
 .profile-block {
@@ -767,4 +774,13 @@ form a {
   height: 50px;
   background-color: #4caf50;
   color: #fff;
+}
+
+.log-out-button button {
+background-color: #4caf50;
+}
+
+.log-out-button button:hover {
+background-color: #3e8e41;
+transform: scale(1.1);
 }
