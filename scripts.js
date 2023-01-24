@@ -16,6 +16,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 const loginForm = document.getElementById("login-form");
+const errorMessage = document.getElementById("error-message");
 
 // Add a submit event listener to the login form
 loginForm.addEventListener("submit", (e) => {
@@ -28,7 +29,7 @@ loginForm.addEventListener("submit", (e) => {
        window.location.href = "profile.html";
     })
     .catch((error) => {
-      // Show an error message
+      errorMessage.textContent = error.message;
     });
 });
 
@@ -40,6 +41,9 @@ firebase.auth().onAuthStateChanged(function(user) {
     // No user is signed in.
   }
 });
+
+const errorMessage = document.getElementById("error-message");
+errorMessage.textContent = error.message;
 
 
 // Initialize the Google Sign-In API with your client ID
@@ -63,6 +67,38 @@ function onSignIn(googleUser) {
       // Handle error
     });
 }
+
+// Reference to the form element
+const loginForm = document.querySelector("#login-form");
+
+// Reference to the message element
+const loginMessage = document.querySelector("#login-message");
+
+// Listen for form submission
+loginForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  // Get the email and password values
+  const email = loginForm["email"].value;
+  const password = loginForm["password"].value;
+
+  // Sign in the user with Firebase
+  firebase
+    .auth()
+    .signInWithEmailAndPassword(email, password)
+    .then(() => {
+      // Show a success message
+      loginMessage.textContent = "Login Successful!";
+    })
+    .catch((error) => {
+      // Show an error message
+      loginMessage.textContent = error.message;
+    });
+});
+
+
+
+
 
 $(document).ready(function(){
     console.log("script is running");
