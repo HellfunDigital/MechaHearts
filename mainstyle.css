@@ -72,6 +72,7 @@ body {
     justify-content: center;
     display: flex;
     width: 100%;
+    font-family: Arial, sans-serif;
     position: relative
 }
 
