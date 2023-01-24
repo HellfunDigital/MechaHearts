@@ -95,6 +95,7 @@ body {
     outline: 3px solid #000;
     background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314906235015269/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_8f2fdc2e-8820-4303-bd30-6a5d98a136be.png);
     background-size: cover;
+    cursor: pointer;
     background-repeat: no-repeat
 }
 
@@ -137,6 +138,7 @@ body {
     position: relative;
     background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063381310728568922/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_fc64e06f-864b-4a6d-9140-5e3e0650be7f.png);
     background-size: cover;
+    cursor: pointer;
     background-repeat: no-repeat
 }
 
@@ -179,6 +181,7 @@ body {
     box-shadow: 2px 2px 4px #000;
     background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314047161864272/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_ac86d764-a9f8-4f6a-b7d4-989c4a6ddc5f.png);
     background-size: cover;
+    cursor: pointer;
     background-repeat: no-repeat
 }
 
@@ -222,6 +225,7 @@ body {
     position: relative;
     background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063384691966754827/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_a70ec374-3fc7-4310-b3a3-59b3bff4794e.png);
     background-size: cover;
+    cursor: pointer;
     background-repeat: no-repeat
 }
 
@@ -330,6 +334,7 @@ body {
     width: 100%;
     height: 100%;
     outline: 3px solid #000;
+    cursor: pointer;
 }
 
 
@@ -379,6 +384,7 @@ body {
   left: 0px;
   z-index: 1;
   text-shadow: none;
+  cursor: pointer;
   }
 
   .stat-pilot-slot:hover {
@@ -405,6 +411,7 @@ body {
     left: 0px;
     z-index: 1;
     text-shadow: none;
+    cursor: pointer;
     }
 
     .stat-equipment-slot:hover {
@@ -436,6 +443,7 @@ body {
       left: 37px;
       z-index: 1;
       text-shadow: none;
+      cursor: pointer;
       }
 
     .stat-upgrade-slot {
@@ -457,6 +465,7 @@ body {
       left: 0px;
       z-index: 1;
       text-shadow: none;
+      cursor: pointer;
       }
 
       .stat-upgrade-slot2 {
@@ -478,6 +487,7 @@ body {
         left: 37px;
         z-index: 1;
         text-shadow: none;
+        cursor: pointer;
         }
 
         .stat-upgrade-slot:hover {
@@ -676,6 +686,7 @@ button:hover{
     margin: 0 1em;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
+    cursor: pointer;
 }
 
 .card-collection {
