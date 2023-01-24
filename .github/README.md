@@ -6,7 +6,7 @@ MechaHearts is a digital collectible card game (TCG) featuring mecha pilots and 
 - Build your collection of cards featuring unique mecha designs and pilots.
 - Battle against other players in real-time matches.
 - Earn rewards and unlock new cards through gameplay.
-- Customize your deck with a variety of upgrade cards.
+- Customize your team with a variety of pilot, equipment and upgrade cards.
 - Regular updates and events to keep the game fresh.
 
 ## Pilot, Equipment and Upgrade cards
