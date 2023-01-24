@@ -535,7 +535,7 @@ button {
 }
 
 .profile-block {
-    height: 600px;
+    height: 561px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -577,8 +577,8 @@ button {
 }
 
 .mecha-team img {
-    width: 200px;
-    height: 300px;
+    width: 180px;
+    height: 250px;
     margin: 8px 1em;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
