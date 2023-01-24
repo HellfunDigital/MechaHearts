@@ -1,6 +1,3 @@
-const firebase = require("firebase/app");
-import "firebase/auth";
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDKYeoSeCHlhE2CnIU9M3xIwK2-pNOVwk4",
@@ -15,31 +12,66 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-const loginForm = document.getElementById("login-form");
-const errorMessage = document.getElementById("error-message");
+// Reference to the login form element
+const loginForm = document.querySelector("#login-form");
 
-// Add a submit event listener to the login form
+// Reference to the login message element
+const loginMessage = document.querySelector("#login-message");
+
+// Listen for form submission
 loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
+
+  // Get the email and password values
   const email = loginForm["email"].value;
   const password = loginForm["password"].value;
-  firebase.auth().signInWithEmailAndPassword(email, password)
+
+  // Sign in the user with Firebase
+  firebase
+    .auth()
+    .signInWithEmailAndPassword(email, password)
     .then(() => {
-       // Redirect the user to the profile page
-       window.location.href = "profile.html";
+      // Show a success message
+      loginMessage.textContent = "Login Successful!";
+      // Redirect the user to the profile page
+      window.location.href = "profile.html";
     })
     .catch((error) => {
-      errorMessage.textContent = error.message;
+      // Show an error message
+      loginMessage.textContent = error.message;
     });
 });
+
+function onSignIn(googleUser) {
+  // Get the user's ID token and basic profile information
+  var id_token = googleUser.getAuthResponse().id_token;
+
+  // Use the token and profile information to sign in the user
+  // using Firebase Authentication
+  firebase
+    .auth()
+    .signInWithCredential(
+      firebase.auth.GoogleAuthProvider().credential(id_token)
+    )
+    .then(function(result) {
+      // User is signed in
+      // Redirect the user to the profile page
+      window.location.href = "profile.html";
+    })
+    .catch(function(error) {
+      // Handle error
+      console.error(error);
+    });
+}
 
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
-    window.location.href = "profile.html"; // Redirect to profile page
-  } else {
-    // No user is signed in.
-  }
+    // Redirect the user to the profile page
+window.location.href = "profile.html";
+} else {
+// No user is signed in.
+}
 });
 
 const errorMessage = document.getElementById("error-message");
