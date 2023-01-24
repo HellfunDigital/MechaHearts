@@ -687,6 +687,16 @@ h4 {
   border-radius: 4px;
 }
 
+form a {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  text-shadow: none;
+  color: white;
+  font-weight: bold;
+}
+
 
 .login-form-container {
   max-height: 649px;
