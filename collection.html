@@ -752,12 +752,12 @@
   $(document).ready(function() {
   // Listen for changes to the form
   $('form').submit(function(event) {
-    event.preventDefault();
+    event.preventDefault(); // added this line
     // Get the selected options
     var rarity = $('#filter-rarity').val();
     var type = $('#filter-type').val();
     var collected = $('#filter-collected').val();
-    console.log(collected); // added this line
+    console.log(collected);
     // Filter the card collection based on the selected options
     $('.card-item').hide();
     $('.card-item').filter(function() {
@@ -772,6 +772,7 @@
     }).show();
   });
 });
+
 
 
 </script>

@@ -314,6 +314,11 @@ body {
     border-radius: 0 10px 10px 0
 }
 
+.card-type-collection {
+
+}
+
+
 .card-rarity {
     font-size: 40px;
     position: inherent;
