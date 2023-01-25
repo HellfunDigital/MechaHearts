@@ -693,7 +693,7 @@ button:hover{
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 490px;
+  max-height: 473px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
@@ -933,4 +933,32 @@ transform: scale(1.1);
   color: #fff;
   font-family: Arial, sans-serif;
   border-radius: 0 10px 10px 0
+}
+
+/* Style the select elements */
+select {
+  background-color: #fff; /* match the background color of the website */
+  color: #444; /* match the text color of the website */
+  font-size: 14px; /* match the font size of the website */
+  padding: 8px; /* adjust the padding to match the website */
+  border: 1px solid #ccc; /* match the border color of the website */
+  border-radius: 4px; /* match the border radius of the website */
+  box-shadow: 2px 2px 5px black; /* match the box shadow of the website */
+}
+
+/* Style the filter button */
+input[type="submit"] {
+  background-color: #4CAF50; /* match the background color of the website */
+  color: white; /* match the text color of the website */
+  font-size: 14px; /* match the font size of the website */
+  padding: 8px; /* adjust the padding to match the website */
+  border: none; /* remove border if not in the website */
+  border-radius: 4px; /* match the border radius of the website */
+  cursor: pointer; /* change cursor on hover */
+  box-shadow: 2px 2px 5px black; /* match the box shadow of the website */
+}
+
+/* Style the filter button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049; /* match the hover background color of the website */
 }
