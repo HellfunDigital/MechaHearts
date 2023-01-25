@@ -69,7 +69,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 - "Ace Pilot" (Boost ⚔️ by 3 & 🛡️ by 2) - MHMU-14
 - "Horizon Lieutenant" (Boost ⚔️ & 🛡️ by 2, +1 ⚔️) - MHMU-15
 - "Red Wolves Sergeant" (Boost ⚔️ by 1 & 🛡️ by 2, +1 ⏱️) - MHMU-16
-- "Aurora Commanders" (Boost ⚔️ by 2 & ⏱️ by 1, +1 ⏱️) - MHMU-17
+- "Aurora Commander" (Boost ⚔️ by 2 & ⏱️ by 1, +1 ⏱️) - MHMU-17
 
 #### ♆ Equipment cards:
 
