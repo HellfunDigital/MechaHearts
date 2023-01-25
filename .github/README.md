@@ -108,7 +108,7 @@ This set includes a variety of card types and rarities, including Legendary, Rar
 - "Thrusters" (⏱️ +1) - MHMU-37
 - "Armor Plating" (🛡️ +2) - MHMU-38
 - "Power Core" (⚔️ +3) - MHMU-39
-- "Thruster Upgrade" (⏱️ +2) - MHMU-40
+- "Thruster Booster" (⏱️ +2) - MHMU-40
 - "Reinforced Frame" (🛡️ +1) - MHMU-41
 - "Power Generator" (⚔️ +2) - MHMU-42
 - "Boosters" (⏱️ +1)  - MHMU-43
