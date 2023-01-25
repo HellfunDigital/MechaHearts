@@ -49,8 +49,8 @@
               <option value="upgrade">＋ Upgrade</option>
             </select>
 
-            <label for="filter-type">Collected:</label>
-            <select id="filter-type" name="filter-type">
+            <label for="filter-collected">Collected:</label>
+            <select id="filter-collected" name="filter-collected">
               <option value="all">All</option>
               <option value="acquired">✔ Acquired</option>
               <option value="unacquired">✖ Unacquired</option>
@@ -59,6 +59,7 @@
             <input type="submit" value="Filter">
           </form>
         </div>
+
         <div class="card-collection">
           <div class="card-item">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067606282510553148/AaronelpisAlso_giant_mecha_90s_anime_detailed_the_old_west_west_5dff04fc-5c89-43f5-94bb-1cc5c0f9c5d1.png" alt="Card 1">
@@ -746,6 +747,35 @@
         </ul>
       </div>
       </div>
+
+<script>
+  $(document).ready(function() {
+// Listen for changes to the form
+$('form').submit(function(event) {
+event.preventDefault();
+// Get the selected options
+var rarity = $('#filter-rarity').val();
+var type = $('#filter-type').val();
+var collected = $('#filter-collected').val();
+
+// Filter the card collection based on the selected options
+$('.card-item').hide();
+$('.card-item').filter(function() {
+  var cardRarity = $(this).find('.card-info p:eq(1)').text().toLowerCase();
+  var cardType = $(this).find('.card-info p:eq(0)').text().toLowerCase();
+  var cardCollected = $(this).hasClass('collected');
+  if ((rarity.toLowerCase() === 'all' || cardRarity === rarity) && (type.toLowerCase() === 'all' || cardType === type) && (collected.toLowerCase() === 'acquired' && cardCollected || collected.toLowerCase() === 'unacquired' && !cardCollected || collected.toLowerCase() === 'all')) {
+    return true;
+  } else {
+    return false;
+  }
+}).show();
+});
+});
+
+
+
+</script>
 
       </body>
       </html>
