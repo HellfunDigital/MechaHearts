@@ -147,3 +147,27 @@ service cloud.firestore {
     }
   }
 }
+
+$(document).ready(function() {
+  // Listen for changes to the form
+  $('form').submit(function(event) {
+    event.preventDefault();
+    // Get the selected options
+    var rarity = $('#filter-rarity').val();
+    var type = $('#filter-type').val();
+    var collected = $('#filter-collected').val();
+
+    // Filter the card collection based on the selected options
+    $('.card-item').hide();
+    $('.card-item').filter(function() {
+      var cardRarity = $(this).find('.card-info p:eq(1)').text().toLowerCase();
+      var cardType = $(this).find('.card-info p:eq(0)').text().toLowerCase();
+      var cardCollected = $(this).hasClass('collected');
+      if ((rarity.toLowerCase() == 'all' || cardRarity == rarity) && (type.toLowerCase() == 'all' || cardType == type) && (collected.toLowerCase() == 'acquired' && cardCollected || collected.toLowerCase() == 'unacquired' && !cardCollected || collected.toLowerCase() == 'all')) {
+        return true;
+      } else {
+        return false;
+      }
+    }).show();
+  });
+});
