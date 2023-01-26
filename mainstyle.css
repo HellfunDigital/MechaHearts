@@ -59,7 +59,7 @@ body {
 }
 
 .featured-cards {
-    height: 465px;
+    height: 462px;
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1em
@@ -175,14 +175,32 @@ body {
     min-height: 400px;
     margin: 0 1em;
     text-align: center;
-    transition: all .3s ease-in-out;
     background-color: #000;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
     background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067720297551245362/AaronelpisAlso_anime_mecha_dodge_blast_war_battle_03f37b79-7998-4efe-b663-6eccd79e8496.png);
     background-size: cover;
     cursor: pointer;
-    background-repeat: no-repeat
+    transition: all .3s ease-in-out;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.card-L,
+.card-R,
+.card-C,
+.card-U{
+  overflow: hidden;
+}
+
+.card-L:hover .shine,
+.card-R:hover .shine,
+.card-C:hover .shine,
+.card-U:hover .shine{
+  display: block !important;
 }
 
 .card-name-U,.card-rarity-U {
@@ -276,14 +294,10 @@ body {
     text-align: center
 }
 
-.nav-bar ul,.quick-links ul {
+.nav-bar ul,.news-updates ul,.quick-links ul {
     list-style-type: none;
     font-family: Arial, sans-serif;
     padding: 0
-}
-
-.news-updates ul {
-  font-family: Arial, sans-serif;
 }
 
 .news-updates h2,.news-updates li,.quick-links h2,.quick-links li {
@@ -568,7 +582,6 @@ body {
           font-weight: 700;
   }
 
-
   .card-text-U {
     position: relative;
     left: 13px;
@@ -624,15 +637,13 @@ input[type="radio"] {
   color: #f00; /* or any other color value */
 }
 label {
-  margin-right: 5px;
-  margin-left: 20px;
   font-size: 16px;
   font-family: Arial, sans-serif;
 }
 button {
   background-color: #fff; /* or any other color value */
   border-radius: 30px 30px 30px 30px;
-  font-size: 13px;
+  font-size: 12px;
   font-family: Arial, sans-serif;
   cursor: pointer;
   margin-top: .4em
@@ -698,15 +709,20 @@ button:hover{
     margin: 0 1em;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
+    outline: 3px solid transparent;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
 }
 
 .card-collection {
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 452px;
-  min-height: 452px;
+  max-height: 473px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
@@ -715,25 +731,6 @@ button:hover{
     position: relative;
     font-family: Arial, sans-serif;
 
-}
-
-.battle-screen {
-  padding-top: 50px;
-  text-align: center;
-  overflow-y: scroll;
-  max-height: 578px;
-  min-height: 578px;
-  margin-top: 20px;
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    position: relative;
-    font-family: Arial, sans-serif;
-    outline: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    background-color: black;
 }
 
 .card-item img:hover {
@@ -995,17 +992,88 @@ input[type="submit"]:hover {
   background-color: #45a049; /* match the hover background color of the website */
 }
 
-#search-input {
-  margin-left: 20px;
-  width: 1020px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #f1f1f1;
-  border-radius: 10px;
+
+/* collection-page */
+.collection-page{
+  margin-top: 40px;
+}
+.collection_search{
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.collection_search input{
+  width: 100%;
+  padding: 14px;
+  border: none;
+  outline: none;
   box-shadow: 2px 2px 5px black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
-#search-input:focus {
-  border-color: #4caf50;
+/* openCardBox */
+.openCardBox_after{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 88;
+}
+
+.openCardBox_after.active{
+  display: block !important;
+}
+
+.openCardBox{
+  background: rgba(255, 255, 255, 0.815);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 15px blue, 0 0 20px cyan;
+}
+
+.openCardBox.active{
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translate(-50%, -50%) scale(1.4);
+  -webkit-transform: translate(-50%, -50%) scale(1.4);
+  -moz-transform: translate(-50%, -50%) scale(1.4);
+  -ms-transform: translate(-50%, -50%) scale(1.4);
+  -o-transform: translate(-50%, -50%) scale(1.4);
+}
+
+
+.openCardBox .card-item img:hover{
+  box-shadow: none !important;
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
 }
