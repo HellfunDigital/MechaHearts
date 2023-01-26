@@ -564,6 +564,26 @@ body {
           font-weight: 700;
   }
 
+  .card-text-L:hover {
+    transform: scale(1.05) translateX(0px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-text-R:hover {
+  transform: scale(1.05) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-text-U:hover {
+  transform: scale(1.05) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-text-C:hover {
+  transform: scale(1.05) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
+
   .card-text-U {
     position: relative;
     left: 13px;
@@ -1003,8 +1023,4 @@ input[type="submit"]:hover {
 
 #search-input:focus {
   border-color: #4caf50;
-}
-
-.no-card-found {
-  font-size: 14px;
 }
