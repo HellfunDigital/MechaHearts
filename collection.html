@@ -753,29 +753,47 @@
       </div>
 
 <script>
-  $(document).ready(function() {
-  // Listen for changes to the form
-  $('form').submit(function(event) {
-    event.preventDefault();
-    // Get the selected options
-    var rarity = $('#filter-rarity').val();
-    var type = $('#filter-type').val();
-    var collected = $('#filter-collected').val();
-    console.log(collected);
-    // Filter the card collection based on the selected options
-    $('.card-item').hide();
-    $('.card-item').filter(function() {
-      var cardRarity = $(this).find('.card-rarity-collection').text().toLowerCase();
-      var cardType = $(this).find('.card-type-collection').text().toLowerCase();
-      var cardCollected = $(this).hasClass('collected');
-      if ((rarity.toLowerCase() === 'all' || cardRarity === rarity) && (type.toLowerCase() === 'all' || cardType === type) && (collected.toLowerCase() === 'acquired' && cardCollected || collected.toLowerCase() === 'unacquired' && !cardCollected || collected.toLowerCase() === 'all')) {
-        return true;
+const cards = document.querySelectorAll('.card-item');
+const rarityFilter = document.getElementById('filter-rarity');
+const typeFilter = document.getElementById('filter-type');
+const collectedFilter = document.getElementById('filter-collected');
+
+rarityFilter.addEventListener('change', (e) => {
+  const rarityValue = e.target.value;
+  cards.forEach((card) => {
+      const cardRarity = card.dataset.rarity;
+      if (rarityValue === 'all' || rarityValue === cardRarity) {
+          card.style.display = 'block';
       } else {
-        return false;
+          card.style.display = 'none';
       }
-    }).show();
   });
 });
+
+typeFilter.addEventListener('change', (e) => {
+  const typeValue = e.target.value;
+  cards.forEach((card) => {
+      const cardType = card.dataset.type;
+      if (typeValue === 'all' || typeValue === cardType) {
+          card.style.display = 'block';
+      } else {
+          card.style.display = 'none';
+      }
+  });
+});
+
+collectedFilter.addEventListener('change', (e) => {
+  const collectedValue = e.target.value;
+  cards.forEach((card) => {
+      const cardCollected = card.dataset.collected;
+      if (collectedValue === 'all' || collectedValue === cardCollected) {
+          card.style.display = 'block';
+      } else {
+          card.style.display = 'none';
+      }
+  });
+});
+
 
 </script>
 <script>
