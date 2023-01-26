@@ -750,64 +750,49 @@
       </div>
       </div>
 
-<script>
-const cards = document.querySelectorAll('.card-item');
-const rarityFilter = document.getElementById('filter-rarity');
-const typeFilter = document.getElementById('filter-type');
-const collectedFilter = document.getElementById('filter-collected');
+      <script>
+      let cards = document.querySelectorAll('.card-item');
+      const rarityFilter = document.getElementById('filter-rarity');
+      const typeFilter = document.getElementById('filter-type');
+      const collectedFilter = document.getElementById('filter-collected');
+      const searchInput = document.getElementById('search-input');
 
-rarityFilter.addEventListener('change', (e) => {
-  const rarityValue = e.target.value;
-  cards.forEach((card) => {
-      const cardRarity = card.dataset.rarity;
-      if (rarityValue === 'all' || rarityValue === cardRarity) {
-          card.style.display = 'block';
-      } else {
-          card.style.display = 'none';
-      }
-  });
-});
-
-typeFilter.addEventListener('change', (e) => {
-  const typeValue = e.target.value;
-  cards.forEach((card) => {
-      const cardType = card.dataset.type;
-      if (typeValue === 'all' || typeValue === cardType) {
-          card.style.display = 'block';
-      } else {
-          card.style.display = 'none';
-      }
-  });
-});
-
-collectedFilter.addEventListener('change', (e) => {
-  const collectedValue = e.target.value;
-  cards.forEach((card) => {
-      const cardCollected = card.dataset.collected;
-      if (collectedValue === 'all' || collectedValue === cardCollected) {
-          card.style.display = 'block';
-      } else {
-          card.style.display = 'none';
-      }
-  });
-});
-
-</script>
-<script>
-const cards = document.querySelectorAll('.card-item');
-const searchInput = document.getElementById('search-input');
-
-searchInput.addEventListener('input', (e) => {
-    const searchValue = e.target.value.toLowerCase();
-    cards.forEach((card) => {
-        const cardName = card.querySelector('h4').textContent.toLowerCase();
-        if (cardName.includes(searchValue)) {
-            card.style.display = 'block';
-        } else {
-            card.style.display = 'none';
+      function applyFilters() {
+        let selectedFilters = {
+          rarity: rarityFilter.value,
+          type: typeFilter.value,
+          collected: collectedFilter.value,
+          search: searchInput.value.toLowerCase()
         }
-    });
-});
-</script>
+
+        cards.forEach((card) => {
+          card.style.display = 'block';
+          const cardRarity = card.dataset.rarity;
+          const cardType = card.dataset.type;
+          const cardCollected = card.dataset.collected;
+          const cardName = card.querySelector('h4').textContent.toLowerCase();
+
+          if (selectedFilters.rarity !== 'all' && selectedFilters.rarity !== cardRarity) {
+            card.style.display = 'none';
+          }
+          if (selectedFilters.type !== 'all' && selectedFilters.type !== cardType) {
+            card.style.display = 'none';
+          }
+          if (selectedFilters.collected !== 'all' && selectedFilters.collected !== cardCollected) {
+            card.style.display = 'none';
+          }
+          if (!cardName.includes(selectedFilters.search)) {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      rarityFilter.addEventListener('change', applyFilters);
+      typeFilter.addEventListener('change', applyFilters);
+      collectedFilter.addEventListener('change', applyFilters);
+      searchInput.addEventListener('input', applyFilters);
+
+      </script>
+
       </body>
       </html>
