@@ -787,15 +787,13 @@
           }
           if (!cardName.includes(selectedFilters.search)) {
             card.style.display = 'none';
-
-            let displayedCards = document.querySelectorAll('.card-item:not([style="display: none;"])');
-          if (displayedCards.length === 0) {
-            document.getElementById('no-card-found').style.display = 'block';
-          } else {
-            document.getElementById('no-card-found').style.display = 'none';
           }
-
-          }
+          let displayedCards = document.querySelectorAll('.card-item:not([style="display: none;"])');
+        if (displayedCards.length === 0) {
+          document.getElementById('no-card-found').style.display = 'block';
+        } else {
+          document.getElementById('no-card-found').style.display = 'none';
+        }
         });
       }
 
