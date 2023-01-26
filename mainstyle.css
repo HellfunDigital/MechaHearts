@@ -1004,3 +1004,7 @@ input[type="submit"]:hover {
 #search-input:focus {
   border-color: #4caf50;
 }
+
+.no-card-found {
+  font-size: 14px;
+}
