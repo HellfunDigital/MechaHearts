@@ -137,6 +137,18 @@ $(document).ready(function(){
     });
 });
 
+var db = firebase.firestore();
+var playerRef = db.collection("players").doc("player_id");
+
+playerRef.onSnapshot(function(doc) {
+    var playerData = doc.data();
+    document.getElementById("player_name").innerHTML = playerData.name;
+    document.getElementById("player_username").innerHTML = playerData.username;
+    document.getElementById("player_email").innerHTML = playerData.email;
+    document.getElementById("player_rank").innerHTML = playerData.rank;
+});
+
+
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
