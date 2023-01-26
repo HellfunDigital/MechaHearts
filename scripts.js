@@ -182,3 +182,17 @@ form.addEventListener("submit", (event) => {
           cards: [],
           decks: [],
           matches: [],
+          transactions: []
+      })
+      .then(() => {
+        // Redirect the user to the dashboard or home page
+        window.location.href = "/dashboard";
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+});
