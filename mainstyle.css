@@ -710,6 +710,25 @@ button:hover{
 
 }
 
+.battle-screen {
+  padding-top: 50px;
+  text-align: center;
+  overflow-y: scroll;
+  max-height: 578px;
+  min-height: 578px;
+  margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: Arial, sans-serif;
+    outline: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    background-color: black;
+}
+
 .card-item img:hover {
     transform: scale(1.1);
     z-index: 2;
