@@ -196,3 +196,19 @@ form.addEventListener("submit", (event) => {
       console.error(error);
     });
 });
+
+
+const cards = document.querySelectorAll('.card-item');
+const searchInput = document.getElementById('search-input');
+
+searchInput.addEventListener('input', (e) => {
+    const searchValue = e.target.value.toLowerCase();
+    cards.forEach((card) => {
+        const cardName = card.querySelector('h4').textContent.toLowerCase();
+        if (cardName.includes(searchValue)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+});
