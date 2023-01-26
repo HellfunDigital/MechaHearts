@@ -158,3 +158,27 @@ service cloud.firestore {
     }
   }
 }
+
+// Get the form element
+const form = document.querySelector("form");
+
+// Add a submit event listener to the form
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  // Get the values of the form inputs
+  const username = form.elements.username.value;
+  const email = form.elements.email.value;
+  const password = form.elements.password.value;
+
+  // Create a new user with Firebase
+  firebase.auth().createUserWithEmailAndPassword(email, password)
+    .then((user) => {
+      // Add the user's information to the Firestore database
+      firestore.collection("users").doc(user.user.uid).set({
+          userId: user.user.uid,
+          username: username,
+          email: email,
+          cards: [],
+          decks: [],
+          matches: [],
