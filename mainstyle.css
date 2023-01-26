@@ -59,7 +59,7 @@ body {
 }
 
 .featured-cards {
-    height: 462px;
+    height: 465px;
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1em
@@ -625,7 +625,7 @@ label {
 button {
   background-color: #fff; /* or any other color value */
   border-radius: 30px 30px 30px 30px;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Arial, sans-serif;
   cursor: pointer;
   margin-top: .4em
@@ -698,7 +698,7 @@ button:hover{
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 473px;
+  max-height: 475px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
