@@ -57,6 +57,10 @@
             </select>
 
             <input type="submit" value="Filter">
+
+            <label for="search-input">Search:</label>
+            <input type="search" id="search-input" name="search-input">
+
           </form>
         </div>
 
@@ -752,7 +756,7 @@
   $(document).ready(function() {
   // Listen for changes to the form
   $('form').submit(function(event) {
-    event.preventDefault(); 
+    event.preventDefault();
     // Get the selected options
     var rarity = $('#filter-rarity').val();
     var type = $('#filter-type').val();

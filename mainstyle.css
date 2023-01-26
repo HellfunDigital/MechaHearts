@@ -619,6 +619,8 @@ input[type="radio"] {
   color: #f00; /* or any other color value */
 }
 label {
+  margin-right: 5px;
+  margin-left: 20px;
   font-size: 16px;
   font-family: Arial, sans-serif;
 }
@@ -698,8 +700,8 @@ button:hover{
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 475px;
-  min-height: 475px;
+  max-height: 452px;
+  min-height: 452px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
@@ -986,4 +988,19 @@ input[type="submit"] {
 /* Style the filter button on hover */
 input[type="submit"]:hover {
   background-color: #45a049; /* match the hover background color of the website */
+}
+
+#search-input {
+  margin-left: 20px;
+  width: 1020px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+#search-input:focus {
+  border-color: #4caf50;
 }
