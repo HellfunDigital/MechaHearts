@@ -699,6 +699,7 @@ button:hover{
   text-align: center;
   overflow-y: scroll;
   max-height: 475px;
+  min-height: 475px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
