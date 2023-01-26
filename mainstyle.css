@@ -276,10 +276,14 @@ body {
     text-align: center
 }
 
-.nav-bar ul,.news-updates ul,.quick-links ul {
+.nav-bar ul,.quick-links ul {
     list-style-type: none;
     font-family: Arial, sans-serif;
     padding: 0
+}
+
+.news-updates ul {
+  font-family: Arial, sans-serif;
 }
 
 .news-updates h2,.news-updates li,.quick-links h2,.quick-links li {
@@ -563,6 +567,7 @@ body {
           border-radius: 30px 30px 30px 30px;
           font-weight: 700;
   }
+
 
   .card-text-U {
     position: relative;
