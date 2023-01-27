@@ -85,7 +85,7 @@ body {
     position: relative
 }
 
-.card-3,.card-4,.card-L,.featured-cards h2 {
+.card-3,.card-4,.card-5,.card-L,.featured-cards h2 {
     text-align: center;
     position: relative
 }
@@ -140,6 +140,24 @@ body {
     cursor: pointer;
     background-repeat: no-repeat
 }
+.card-5 {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0 1em;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067622014120120370/AaronelpisAlso_stoic_character_Blue_uniform_Aurora_General_anim_6e52197d-8fc7-4b4b-8520-8401396f6e05.png);
+    background-size: cover;
+    cursor: pointer;
+    background-repeat: no-repeat
+}
+
+
 
 .card-name-L,.card-rarity-L {
     text-shadow: none;
@@ -1079,6 +1097,7 @@ input[type="submit"]:hover {
 }
 .card-3,
 .card-4,
+.card-5,
 .card-L,
 .card-R,
 .card-C,
@@ -1088,6 +1107,7 @@ input[type="submit"]:hover {
 
 .card-3:hover .shine,
 .card-4:hover .shine,
+.card-5:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
