@@ -254,6 +254,8 @@ body {
 .card-C:hover,.card-L:hover,.card-R:hover,.card-U:hover {
     transform: scale(1.4);
     z-index: 2;
+    outline: 3px solid white;
+    box-shadow: 0 0 15px blue, 0 0 20px cyan;
 }
 
 .card img {
