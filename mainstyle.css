@@ -62,6 +62,10 @@ body {
     text-decoration: none
 }
 
+.nav-bar h3 {
+  margin-right: 67em
+}
+
 .featured-cards {
     height: 466px;
     width: 100%;
