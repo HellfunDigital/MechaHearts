@@ -1295,10 +1295,10 @@ input[type="submit"]:hover {
   /* zoom: 1; */
 }
 
-/* .openCardBox .card-item .card-stats > div {
+.openCardBox .card-item .card-stats > div {
   left: 87%;
   zoom: 1;
-} */
+}
 
 .openCardBox.active {
   opacity: 1 !important;
