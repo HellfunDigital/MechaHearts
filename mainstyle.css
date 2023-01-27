@@ -67,7 +67,7 @@ body {
 }
 
 .featured-cards {
-    height: 466px;
+    height: 472px;
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1em
@@ -629,8 +629,8 @@ body {
 .pack-options img {
   border: 2px solid #000;
   box-shadow: 2px 2px 5px #000;
-  width: 240px;
-  height: 340px;
+  width: 220px;
+  height: 320px;
 }
 
 input[type="radio"] {
@@ -656,7 +656,7 @@ button:hover{
 }
 
 .profile-block {
-    height: 561px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -724,8 +724,8 @@ button:hover{
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 452px;
-  min-height: 452px;
+  max-height: 432px;
+  min-height: 432px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
@@ -740,8 +740,8 @@ button:hover{
   padding-top: 50px;
   text-align: center;
   overflow-y: scroll;
-  max-height: 578px;
-  min-height: 578px;
+  max-height: 558px;
+  min-height: 558px;
   margin-top: 20px;
     justify-content: center;
     display: flex;
@@ -789,7 +789,7 @@ h4 {
 
 
 .signup-form {
-  max-height: 649px;
+  max-height: 629px;
   display: flex;
   align-items: center;
   justify-content: center;
