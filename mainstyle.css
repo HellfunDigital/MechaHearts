@@ -307,7 +307,25 @@ body {
     color: gold
 }
 
+.card-type-R {
+    font-weight: 700;
+    font-size: 50px;
+    color: purple
+}
+
+
 .card-type {
+    position: relative;
+    top: -13px;
+    padding: 1px;
+    width: 35%;
+    font-size: 10px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0 10px 10px 0
+}
+
+.card-type-L {
     position: relative;
     top: -13px;
     padding: 1px;
@@ -364,6 +382,48 @@ body {
     left: 224px;
     z-index: 1;
     text-shadow: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-stats-L {
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    outline: 3px solid #000;
+    cursor: pointer;
+}
+
+.card-stats-L > div {
+    opacity: 0.8;
+    width: 10%;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    background-color: purple;
+    font-size: 10px;
+    position: relative;
+    bottom:-45px;
+    left: 224px;
+    z-index: 1;
+    text-shadow: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-stats-L > div:hover {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1.1) translateX(-3px);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -1061,6 +1121,7 @@ input[type="submit"]:hover {
 .card-item .card-name-U,
 .card-item .card-rarity-R,
 .card-item .card-type,
+.card-item .card-type-L,
 .card-item .stat-pilot-slot,
 .card-item .stat-equipment-slot,
 .card-item .stat-upgrade-slot,
@@ -1137,6 +1198,7 @@ input[type="submit"]:hover {
 .openCardBox .card-item .card-name-U,
 .openCardBox .card-item .card-rarity-R,
 .openCardBox .card-item .card-type,
+.openCardBox .card-item .card-type-L,
 .openCardBox .card-item .stat-pilot-slot,
 .openCardBox .card-item .stat-equipment-slot,
 .openCardBox .card-item .stat-upgrade-slot,
