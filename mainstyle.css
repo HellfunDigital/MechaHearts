@@ -85,7 +85,7 @@ body {
     position: relative
 }
 
-.card-L,.featured-cards h2 {
+.card-3,.card-4,.card-L,.featured-cards h2 {
     text-align: center;
     position: relative
 }
@@ -1077,7 +1077,8 @@ input[type="submit"]:hover {
   display: flex;
   align-items: center;
 }
-
+.card-3,
+.card-4,
 .card-L,
 .card-R,
 .card-C,
@@ -1085,6 +1086,8 @@ input[type="submit"]:hover {
   overflow: hidden;
 }
 
+.card-3:hover .shin,
+.card-4:hover .shin,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
