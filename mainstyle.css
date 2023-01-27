@@ -77,12 +77,12 @@ body {
     position: relative
 }
 
-.card-1,.card-L,.featured-cards h2 {
+.card-L,.featured-cards h2 {
     text-align: center;
     position: relative
 }
 
-.card-1,.card-L {
+.card-L {
     width: 260px;
     height: 400px;
     min-width: 260px;
@@ -117,12 +117,11 @@ body {
     position: relative;
     top: -110px;
     z-index: 1;
-    outline: 3px solid #000;
     width: 10%
 }
 
-..card-R,.card-name-R,.card-rarity-L {
-    outline: 2px solid #000
+.card-R,.card-name-R,.card-rarity-L {
+    outline: 3px solid #000
 }
 
 .card-R {
@@ -150,7 +149,6 @@ body {
     width: 80%;
     background-color: purple;
     font-family: Arial, sans-serif;
-    outline: 3px solid #000;
     border-radius: 0 10px 10px 0
 }
 
@@ -253,7 +251,7 @@ body {
     width: 10%
 }
 
-.card-C:hover,.card-1:hover,.card-L:hover,.card-R:hover,.card-U:hover {
+.card-C:hover,.card-L:hover,.card-R:hover,.card-U:hover {
     transform: scale(1.4);
     z-index: 2;
 }
@@ -309,25 +307,7 @@ body {
     color: gold
 }
 
-.card-type-R {
-    font-weight: 700;
-    font-size: 50px;
-    color: purple
-}
-
-
 .card-type {
-    position: relative;
-    top: -13px;
-    padding: 1px;
-    width: 35%;
-    font-size: 10px;
-    color: #fff;
-    background-color: #000;
-    border-radius: 0 10px 10px 0
-}
-
-.card-type-L {
     position: relative;
     top: -13px;
     padding: 1px;
@@ -384,48 +364,6 @@ body {
     left: 224px;
     z-index: 1;
     text-shadow: none;
-    transition: transform 0.2s ease-in-out;
-}
-
-.card-stats-L {
-  position: absolute;
-    top: 0px;
-    left: 0px;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 700;
-    width: 100%;
-    height: 100%;
-    outline: 3px solid #000;
-    cursor: pointer;
-}
-
-.card-stats-L > div {
-    opacity: 0.8;
-    width: 10%;
-    text-align: center;
-    margin: 5px;
-    padding: 2px;
-    color: white;
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-color: purple;
-    font-size: 10px;
-    position: relative;
-    bottom:-45px;
-    left: 224px;
-    z-index: 1;
-    text-shadow: none;
-    transition: transform 0.2s ease-in-out;
-}
-
-.card-stats-L > div:hover {
-    opacity: 1;
-    z-index: 2;
-    transform: scale(1.1) translateX(-3px);
     transition: transform 0.2s ease-in-out;
 }
 
@@ -663,6 +601,7 @@ body {
 .store-packs {
     width: 100%;
     margin-top: 1em;
+
 }
 
 .store-packs h2 {
@@ -675,15 +614,11 @@ body {
 }
 
 .pack-options img {
+  border: 2px solid #000;
   box-shadow: 2px 2px 5px #000;
-  background-color: transparent;
-  width: 244px;
-  height: 344px;
-}
-
-.pack-options img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+  background-color: #fff;
+  width: 240px;
+  height: 340px;
 }
 
 input[type="radio"] {
@@ -1088,7 +1023,6 @@ input[type="submit"]:hover {
 }
 
 .card-L,
-.card-1
 .card-R,
 .card-C,
 .card-U{
@@ -1096,7 +1030,6 @@ input[type="submit"]:hover {
 }
 
 .card-L:hover .shine,
-.card-1:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
 .card-U:hover .shine{
@@ -1125,7 +1058,6 @@ input[type="submit"]:hover {
 .card-item .card-name-U,
 .card-item .card-rarity-R,
 .card-item .card-type,
-.card-item .card-type-L,
 .card-item .stat-pilot-slot,
 .card-item .stat-equipment-slot,
 .card-item .stat-upgrade-slot,
@@ -1202,7 +1134,6 @@ input[type="submit"]:hover {
 .openCardBox .card-item .card-name-U,
 .openCardBox .card-item .card-rarity-R,
 .openCardBox .card-item .card-type,
-.openCardBox .card-item .card-type-L,
 .openCardBox .card-item .stat-pilot-slot,
 .openCardBox .card-item .stat-equipment-slot,
 .openCardBox .card-item .stat-upgrade-slot,
