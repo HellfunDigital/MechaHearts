@@ -1123,7 +1123,7 @@ input[type="submit"]:hover {
 
 .openCardBox .card-item .cardShine,
 .openCardBox .card-item img {
-  width: 240px;
+  width: 200px;
   height: 300px;
 }
 
@@ -1153,11 +1153,11 @@ input[type="submit"]:hover {
 .openCardBox.active{
   opacity: 1 !important;
   visibility: visible !important;
-  transform: translate(-50%, -50%) scale(2.3);
+  transform: translate(-50%, -50%) scale(2.5);
   -webkit-transform: translate(-50%, -50%) scale(2.3);
   -moz-transform: translate(-50%, -50%) scale(2.3);
   -ms-transform: translate(-50%, -50%) scale(2.3);
-  -o-transform: translate(-50%, -5%) scale(2.3);
+  -o-transform: translate(-50%, -50%) scale(2.3);
 }
 
 
