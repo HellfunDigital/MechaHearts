@@ -77,12 +77,12 @@ body {
     position: relative
 }
 
-.card-L,.featured-cards h2 {
+.card-1,.card-L,.featured-cards h2 {
     text-align: center;
     position: relative
 }
 
-.card-L {
+.card-1,.card-L {
     width: 260px;
     height: 400px;
     min-width: 260px;
@@ -120,7 +120,7 @@ body {
     width: 10%
 }
 
-.card-R,.card-name-R,.card-rarity-L {
+..card-R,.card-name-R,.card-rarity-L {
     outline: 3px solid #000
 }
 
@@ -251,7 +251,7 @@ body {
     width: 10%
 }
 
-.card-C:hover,.card-L:hover,.card-R:hover,.card-U:hover {
+.card-C:hover,.card-1:hover,.card-L:hover,.card-R:hover,.card-U:hover {
     transform: scale(1.4);
     z-index: 2;
 }
@@ -1086,6 +1086,7 @@ input[type="submit"]:hover {
 }
 
 .card-L,
+.card-1
 .card-R,
 .card-C,
 .card-U{
@@ -1093,6 +1094,7 @@ input[type="submit"]:hover {
 }
 
 .card-L:hover .shine,
+.card-1:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
 .card-U:hover .shine{
