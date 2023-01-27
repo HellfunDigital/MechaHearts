@@ -696,6 +696,7 @@ button:hover{
 }
 
 .card-item img {
+  outline: 3px solid black;
     width: 140px;
     height: 200px;
     margin: 0 1em;
@@ -1165,7 +1166,7 @@ input[type="submit"]:hover {
 
 .openCardBox .card-item img:hover,
 .openCardBox .cardShine:hover{
-  box-shadow: none !important;
+  box-shadow: 2px 2px 4px #000;
   transform: scale(1) !important;
   -webkit-transform: scale(1) !important;
   -moz-transform: scale(1) !important;
