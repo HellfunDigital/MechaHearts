@@ -1,464 +1,494 @@
 body {
-    background-color: #000;
-    background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1055876077282672650/AaronelpisAlso_clean_website_background_texture_fca09412-e603-4d1b-95e7-3e1b2857041e.png);
-    background-size: cover;
-    transition: opacity 1s ease-in-out;
+  background-color: #000;
+  background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1055876077282672650/AaronelpisAlso_clean_website_background_texture_fca09412-e603-4d1b-95e7-3e1b2857041e.png);
+  background-size: cover;
+  transition: opacity 1s ease-in-out;
 }
 
-.home-page,.nav-bar {
-    align-items: center;
-    padding: 1em
+.home-page,
+.nav-bar {
+  align-items: center;
+  padding: 1em;
 }
 
 .home-page {
-    text-shadow: 2px 2px 4px #000;
-    justify-content: center;
-    background-image: linear-gradient(to right, rgba(100, 122, 240, 0.8), rgba(0, 12, 64, 0.7));
-    color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    overflow: hidden;
-    outline: 1px solid #000;
-
+  text-shadow: 2px 2px 4px #000;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(100, 122, 240, 0.8),
+    rgba(0, 12, 64, 0.7)
+  );
+  color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  outline: 1px solid #000;
 }
 
 .nav-bar {
-    border-radius: 10px 10px 10px 0;
-    display: flex;
-    height: 55px;
-    justify-content: space-between;
-    background: repeating-linear-gradient(180deg,#606dbc,#606dbc 10px,#465298 75px,#465298 75px);
-    outline: -8px solid #000;
-    font-family: Arial, sans-serif;
-    box-shadow: 2px 2px 4px #000
+  border-radius: 10px 10px 10px 0;
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  background: repeating-linear-gradient(
+    180deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 75px,
+    #465298 75px
+  );
+  outline: -8px solid #000;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 4px #000;
 }
 
 .nav-bar img {
-    margin-bottom: 8px;
-    width: 50px;
-    height: 50px;
-    margin-right: 1em;
-    border-radius: 20%;
-    outline: 1px solid white;
-    box-shadow: 2px 2px 4px #000
+  margin-bottom: 8px;
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+  border-radius: 20%;
+  outline: 1px solid white;
+  box-shadow: 2px 2px 4px #000;
 }
 
 .nav-bar ul {
-    display: flex;
-    opacity: 1;
-    margin-right: 20px;
-    font-weight: 700
+  display: flex;
+  opacity: 1;
+  margin-right: 20px;
+  font-weight: 700;
 }
 
-.nav-bar a:hover,.quick-links a:hover {
-    color: #4caf50
+.nav-bar a:hover,
+.quick-links a:hover {
+  color: #4caf50;
 }
 
 .nav-bar li {
-    margin-left: 1em
+  margin-left: 1em;
 }
 
 .nav-bar a {
-    color: #fff;
-    text-decoration: none
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-bar h3 {
-  margin-right: 67em
+  margin-right: 67em;
 }
 
 .featured-cards {
-    height: 472px;
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 1em
+  height: 472px;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .featured-cards h2 {
-    margin-bottom: .8em
+  margin-bottom: 0.8em;
 }
 
 .card-container {
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    position: relative
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  position: relative;
 }
 
-.card-3,.card-4,.card-13,.card-5,.card-5,.card-L,.featured-cards h2 {
-    text-align: center;
-    position: relative
+.card-3,
+.card-4,
+.card-13,
+.card-5,
+.card-5,
+.card-L,
+.featured-cards h2 {
+  text-align: center;
+  position: relative;
 }
 
 .card-L {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314906235015269/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_8f2fdc2e-8820-4303-bd30-6a5d98a136be.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314906235015269/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_8f2fdc2e-8820-4303-bd30-6a5d98a136be.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .card-3 {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067629078129152000/AaronelpisAlso_painting_with_detailed_background_b9da8dbe-460b-485f-8b9e-2bc5ac3dec0d.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067629078129152000/AaronelpisAlso_painting_with_detailed_background_b9da8dbe-460b-485f-8b9e-2bc5ac3dec0d.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .card-4 {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067618729455800340/AaronelpisAlso_rouge_female_character_Red_Sergeant_anime_style__b14fe244-aaf1-4872-84a0-cb019221f5bb.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067618729455800340/AaronelpisAlso_rouge_female_character_Red_Sergeant_anime_style__b14fe244-aaf1-4872-84a0-cb019221f5bb.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 .card-5 {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067622014120120370/AaronelpisAlso_stoic_character_Blue_uniform_Aurora_General_anim_6e52197d-8fc7-4b4b-8520-8401396f6e05.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067622014120120370/AaronelpisAlso_stoic_character_Blue_uniform_Aurora_General_anim_6e52197d-8fc7-4b4b-8520-8401396f6e05.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .card-13 {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067741458607656991/AaronelpisAlso_cool_male_mecha_pilot_young_man_in_blue_royal_ju_fee43cf2-5dc8-4e65-90c1-e216d91ac3e9.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067741458607656991/AaronelpisAlso_cool_male_mecha_pilot_young_man_in_blue_royal_ju_fee43cf2-5dc8-4e65-90c1-e216d91ac3e9.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
-.card-name-L,.card-rarity-L {
-    text-shadow: none;
-    color: black;
-    font-size: 20px;
-    background-color: gold;
-    font-family: Arial, sans-serif;
-    border-radius: 0 10px 10px 0
+.card-name-L,
+.card-rarity-L {
+  text-shadow: none;
+  color: black;
+  font-size: 20px;
+  background-color: gold;
+  font-family: Arial, sans-serif;
+  border-radius: 0 10px 10px 0;
 }
 
-.card-name-3,.card-rarity-3 {
-    text-shadow: none;
-    color: black;
-    font-size: 20px;
-    background-color: gold;
-    font-family: Arial, sans-serif;
-    border-radius: 0 10px 10px 0
+.card-name-3,
+.card-rarity-3 {
+  text-shadow: none;
+  color: black;
+  font-size: 20px;
+  background-color: gold;
+  font-family: Arial, sans-serif;
+  border-radius: 0 10px 10px 0;
 }
 
 .card-name-L {
-    outline: 3px solid #000;
-    font-weight: 700;
-    width: 80%
+  outline: 3px solid #000;
+  font-weight: 700;
+  width: 80%;
 }
 
 .card-rarity-L {
-    position: relative;
-    top: -110px;
-    z-index: 1;
-    width: 10%
+  position: relative;
+  top: -110px;
+  z-index: 1;
+  width: 10%;
 }
 
-.card-R,.card-name-R,.card-rarity-L {
-    outline: 3px solid #000
+.card-R,
+.card-name-R,
+.card-rarity-L {
+  outline: 3px solid #000;
 }
 
 .card-R {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    text-align: center;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    position: relative;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063381310728568922/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_fc64e06f-864b-4a6d-9140-5e3e0650be7f.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  position: relative;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063381310728568922/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_fc64e06f-864b-4a6d-9140-5e3e0650be7f.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .card-name-R {
-    font-weight: 700;
-    font-size: 20px;
-    color: #fff;
-    width: 80%;
-    background-color: purple;
-    font-family: Arial, sans-serif;
-    border-radius: 0 10px 10px 0
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  width: 80%;
+  background-color: purple;
+  font-family: Arial, sans-serif;
+  border-radius: 0 10px 10px 0;
 }
 
-.card-U,.card-rarity-R {
-    outline: 3px solid #000;
-    position: relative
+.card-U,
+.card-rarity-R {
+  outline: 3px solid #000;
+  position: relative;
 }
 
 .card-rarity-R {
-    top: -110px;
-    font-size: 20px;
-    position: inherent;
-    background-color: purple;
-    z-index: 1;
-    color: #fff;
-    width: 10%;
-    border-radius: 0 10px 10px 0
+  top: -110px;
+  font-size: 20px;
+  position: inherent;
+  background-color: purple;
+  z-index: 1;
+  color: #fff;
+  width: 10%;
+  border-radius: 0 10px 10px 0;
 }
 
 .card-U {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    text-align: center;
-    transition: all .3s ease-in-out;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067720297551245362/AaronelpisAlso_anime_mecha_dodge_blast_war_battle_03f37b79-7998-4efe-b663-6eccd79e8496.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067720297551245362/AaronelpisAlso_anime_mecha_dodge_blast_war_battle_03f37b79-7998-4efe-b663-6eccd79e8496.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
-.card-name-U,.card-rarity-U {
-    outline: 3px solid #000;
-    font-size: 20px;
-    background-color: #00f;
-    color: #fff;
-    border-radius: 0 10px 10px 0
+.card-name-U,
+.card-rarity-U {
+  outline: 3px solid #000;
+  font-size: 20px;
+  background-color: #00f;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
 }
 
 .card-name-U {
-    font-weight: 700;
-    font-family: Arial, sans-serif;
-    width: 80%
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  width: 80%;
 }
 
 .card-rarity-U {
-    position: relative;
-    top: -105px;
-    position: inherent;
-    z-index: 1;
-    width: 10%
+  position: relative;
+  top: -105px;
+  position: inherent;
+  z-index: 1;
+  width: 10%;
 }
 
-.card-C,.quick-links a {
-    transition: all .3s ease-in-out
+.card-C,
+.quick-links a {
+  transition: all 0.3s ease-in-out;
 }
 
 .card-C {
-    width: 260px;
-    height: 400px;
-    min-width: 260px;
-    min-height: 400px;
-    margin: 0 1em;
-    text-align: center;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    position: relative;
-    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063384691966754827/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_a70ec374-3fc7-4310-b3a3-59b3bff4794e.png);
-    background-size: cover;
-    cursor: pointer;
-    background-repeat: no-repeat
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  position: relative;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063384691966754827/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_a70ec374-3fc7-4310-b3a3-59b3bff4794e.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
 
-.card-name-C,.card-rarity-C {
-    outline: 3px solid #000;
-    font-size: 20px;
-    background-color: grey;
-    color: #fff;
-    border-radius: 0 10px 10px 0
+.card-name-C,
+.card-rarity-C {
+  outline: 3px solid #000;
+  font-size: 20px;
+  background-color: grey;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
 }
 
 .card-name-C {
-    width: 80%;
-    font-family: Arial, sans-serif;
-    font-weight: 700
+  width: 80%;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
 }
 
 .card-rarity-C {
-    position: relative;
-    top: -105px;
-    position: inherent;
-    z-index: 1;
-    width: 10%
+  position: relative;
+  top: -105px;
+  position: inherent;
+  z-index: 1;
+  width: 10%;
 }
 
-.card-C:hover,.card-L:hover,.card-R:hover,.card-U:hover {
-    transform: scale(1.4);
-    z-index: 2;
-    outline: 3px solid white;
-    box-shadow: 0 0 15px blue, 0 0 20px cyan;
+.card-C:hover,
+.card-L:hover,
+.card-R:hover,
+.card-U:hover {
+  transform: scale(1.4);
+  z-index: 2;
+  outline: 3px solid white;
+  box-shadow: 0 0 15px blue, 0 0 20px cyan;
 }
 
 .card img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    outline: 2px solid #fff
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  outline: 2px solid #fff;
 }
 
 .card p {
-    margin: 10px 0;
-    background-color: transparent
+  margin: 10px 0;
+  background-color: transparent;
 }
 
 .news-updates {
-    width: 100%;
-    margin-bottom: 1em
+  width: 100%;
+  margin-bottom: 1em;
 }
 
 .news-updates h2 {
-    text-align: center
+  text-align: center;
 }
 
-.nav-bar ul,.quick-links ul {
-    list-style-type: none;
-    font-family: Arial, sans-serif;
-    padding: 0
+.nav-bar ul,
+.quick-links ul {
+  list-style-type: none;
+  font-family: Arial, sans-serif;
+  padding: 0;
 }
 
 .news-updates ul {
   font-family: Arial, sans-serif;
 }
 
-.news-updates h2,.news-updates li,.quick-links h2,.quick-links li {
-    margin-bottom: .5em;
-    text-shadow: 2px 2px 4px #000
+.news-updates h2,
+.news-updates li,
+.quick-links h2,
+.quick-links li {
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .quick-links {
-    width: 100%;
-    text-align: center
+  width: 100%;
+  text-align: center;
 }
 
 .quick-links a {
-    color: #fff;
-    text-decoration: none
+  color: #fff;
+  text-decoration: none;
 }
 
-.card-name,.card-type {
-    font-weight: 700;
-    font-size: 50px;
-    color: gold
+.card-name,
+.card-type {
+  font-weight: 700;
+  font-size: 50px;
+  color: gold;
 }
 
 .card-type {
-    position: relative;
-    top: -13px;
-    padding: 1px;
-    width: 35%;
-    font-size: 10px;
-    color: #fff;
-    background-color: #000;
-    border-radius: 0 10px 10px 0
+  position: relative;
+  top: -13px;
+  padding: 1px;
+  width: 35%;
+  font-size: 10px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0 10px 10px 0;
 }
 
 .card-type-collection {
-
 }
 
-
 .card-rarity {
-    font-size: 40px;
-    position: inherent;
-    background-color: transparent;
-    z-index: 1;
-    color: #fff
+  font-size: 40px;
+  position: inherent;
+  background-color: transparent;
+  z-index: 1;
+  color: #fff;
 }
 
 .card-stats {
   position: absolute;
-    top: 0px;
-    left: 0px;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 700;
-    width: 100%;
-    height: 100%;
-    outline: 3px solid #000;
-    cursor: pointer;
+  top: 0px;
+  left: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  outline: 3px solid #000;
+  cursor: pointer;
 }
 
-
 .card-stats > div {
-    opacity: 0.8;
-    width: 10%;
-    text-align: center;
-    margin: 5px;
-    padding: 2px;
-    color: white;
-    border-radius: 20px 0px 0px 20px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 3px solid #000;
-    background-color: purple;
-    font-size: 10px;
-    position: relative;
-    bottom:-45px;
-    left: 224px;
-    z-index: 1;
-    text-shadow: none;
-    transition: transform 0.2s ease-in-out;
+  opacity: 0.8;
+  width: 10%;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  color: white;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-color: purple;
+  font-size: 10px;
+  position: relative;
+  bottom: -45px;
+  left: 224px;
+  z-index: 1;
+  text-shadow: none;
+  transition: transform 0.2s ease-in-out;
 }
 
 .card-stats > div:hover {
-    opacity: 1;
-    z-index: 2;
-    transform: scale(1.1) translateX(-3px);
-    transition: transform 0.2s ease-in-out;
+  opacity: 1;
+  z-index: 2;
+  transform: scale(1.1) translateX(-3px);
+  transition: transform 0.2s ease-in-out;
 }
 
 .stat-pilot-slot {
@@ -481,211 +511,210 @@ body {
   z-index: 1;
   text-shadow: none;
   cursor: pointer;
-  }
+}
 
-  .stat-pilot-slot:hover {
-    transform: scale(1.1) translateX(0px);
-    transition: transform 0.2s ease-in-out;
-  }
+.stat-pilot-slot:hover {
+  transform: scale(1.1) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
 
-  .stat-equipment-slot {
-    opacity: 0.8;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 10%;
-    text-align: center;
-    margin: 5px;
-    padding: 2px;
-    color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 2px 2px 4px #000;
-    outline: 2px solid #000;
-    background-color: grey;
-    font-size: 10px;
-    position: relative;
-    bottom: 73px;
-    left: 0px;
-    z-index: 1;
-    text-shadow: none;
-    cursor: pointer;
-    }
+.stat-equipment-slot {
+  opacity: 0.8;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 2px solid #000;
+  background-color: grey;
+  font-size: 10px;
+  position: relative;
+  bottom: 73px;
+  left: 0px;
+  z-index: 1;
+  text-shadow: none;
+  cursor: pointer;
+}
 
-    .stat-equipment-slot:hover {
-      transform: scale(1.1) translateX(0px);
-      transition: transform 0.2s ease-in-out;
-    }
+.stat-equipment-slot:hover {
+  transform: scale(1.1) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
 
-    .stat-equipment-slot2:hover {
-      transform: scale(1.1) translateX(0px);
-      transition: transform 0.2s ease-in-out;
-    }
+.stat-equipment-slot2:hover {
+  transform: scale(1.1) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
 
-    .stat-equipment-slot2 {
-      opacity: 0.8;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 10%;
-      text-align: center;
-      margin: 5px;
-      padding: 2px;
-      color: #fff;
-      border-radius: 5px 5px 5px 5px;
-      box-shadow: 2px 2px 4px #000;
-      outline: 2px solid #000;
-      background-color: grey;
-      font-size: 10px;
-      position: relative;
-      bottom: 115px;
-      left: 37px;
-      z-index: 1;
-      text-shadow: none;
-      cursor: pointer;
-      }
+.stat-equipment-slot2 {
+  opacity: 0.8;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 2px solid #000;
+  background-color: grey;
+  font-size: 10px;
+  position: relative;
+  bottom: 115px;
+  left: 37px;
+  z-index: 1;
+  text-shadow: none;
+  cursor: pointer;
+}
 
-    .stat-upgrade-slot {
-      opacity: 0.8;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 10%;
-      text-align: center;
-      margin: 5px;
-      padding: 2px;
-      color: #fff;
-      border-radius: 5px 5px 5px 5px;
-      box-shadow: 2px 2px 4px #000;
-      outline: 2px solid #000;
-      background-color: grey;
-      font-size: 10px;
-      position: relative;
-      bottom: 114px;
-      left: 0px;
-      z-index: 1;
-      text-shadow: none;
-      cursor: pointer;
-      }
+.stat-upgrade-slot {
+  opacity: 0.8;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 2px solid #000;
+  background-color: grey;
+  font-size: 10px;
+  position: relative;
+  bottom: 114px;
+  left: 0px;
+  z-index: 1;
+  text-shadow: none;
+  cursor: pointer;
+}
 
-      .stat-upgrade-slot2 {
-        opacity: 0.8;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 10%;
-        text-align: center;
-        margin: 5px;
-        padding: 2px;
-        color: #fff;
-        border-radius: 5px 5px 5px 5px;
-        box-shadow: 2px 2px 4px #000;
-        outline: 2px solid #000;
-        background-color: grey;
-        font-size: 10px;
-        position: relative;
-        bottom: 157px;
-        left: 37px;
-        z-index: 1;
-        text-shadow: none;
-        cursor: pointer;
-        }
+.stat-upgrade-slot2 {
+  opacity: 0.8;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 2px solid #000;
+  background-color: grey;
+  font-size: 10px;
+  position: relative;
+  bottom: 157px;
+  left: 37px;
+  z-index: 1;
+  text-shadow: none;
+  cursor: pointer;
+}
 
-        .stat-upgrade-slot:hover {
-          transform: scale(1.1) translateX(0px);
-          transition: transform 0.2s ease-in-out;
-        }
+.stat-upgrade-slot:hover {
+  transform: scale(1.1) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
 
-        .stat-upgrade-slot2:hover {
-          transform: scale(1.1) translateX(0px);
-          transition: transform 0.2s ease-in-out;
-        }
+.stat-upgrade-slot2:hover {
+  transform: scale(1.1) translateX(0px);
+  transition: transform 0.2s ease-in-out;
+}
 
-      .setno-L {
-        font-size: 10px;
-        position: relative;
-        bottom: -130px;
-        left: 0px;
-        font-weight: 700;
-        z-index: 1;
-        opacity: 0.8;
-        font-family: Arial, sans-serif;
-        }
+.setno-L {
+  font-size: 10px;
+  position: relative;
+  bottom: -130px;
+  left: 0px;
+  font-weight: 700;
+  z-index: 1;
+  opacity: 0.8;
+  font-family: Arial, sans-serif;
+}
 
-  .setno-R {
-    color: #fff;
-    font-size: 10px;
-    position: relative;
-    bottom: 9px;
-    left: 0px;
-    font-weight: 700;
-    z-index: 1;
-    opacity: 0.8;
-    font-family: Arial, sans-serif;
-    }
+.setno-R {
+  color: #fff;
+  font-size: 10px;
+  position: relative;
+  bottom: 9px;
+  left: 0px;
+  font-weight: 700;
+  z-index: 1;
+  opacity: 0.8;
+  font-family: Arial, sans-serif;
+}
 
-    .setno-U {
-      font-size: 10px;
-      position: relative;
-      bottom: -130px;
-      left: 0px;
-      font-weight: 700;
-      z-index: 1;
-      opacity: 0.8;
-      font-family: Arial, sans-serif;
-      }
+.setno-U {
+  font-size: 10px;
+  position: relative;
+  bottom: -130px;
+  left: 0px;
+  font-weight: 700;
+  z-index: 1;
+  opacity: 0.8;
+  font-family: Arial, sans-serif;
+}
 
-      .setno-C {
-        font-size: 10px;
-        position: relative;
-        bottom: -130px;
-        left: 0px;
-        font-weight: 700;
-        z-index: 1;
-        opacity: 0.8;
-        font-family: Arial, sans-serif;
-        }
+.setno-C {
+  font-size: 10px;
+  position: relative;
+  bottom: -130px;
+  left: 0px;
+  font-weight: 700;
+  z-index: 1;
+  opacity: 0.8;
+  font-family: Arial, sans-serif;
+}
 
+.card-text-L {
+  position: relative;
+  left: 13px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: gold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 700;
+  color: black;
+  text-shadow: none !important;
+}
 
-        .card-text-L {
-          position: relative;
-          left: 13px;
-          bottom: -120px;
-          outline: 3px solid #000;
-          background-color: gold;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          opacity: 0.8;
-          width: 90%;
-          border-radius: 30px 30px 30px 30px;
-          font-weight: 700;
-          color: black;
-          text-shadow: none !important;
-  }
+.card-text-R {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
 
-  .card-text-R {
-    position: relative;
-    left: 8px;
-    bottom: -30px;
-    outline: 3px solid #000;
-    background-color: purple;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    opacity: 0.8;
-    width: 90%;
-    border-radius: 30px 30px 30px 30px;
-    font-weight: 700;
-    color: white;
-    text-shadow: 2px 2px 4px #000;
-  }
-
-  .card-text-U {
-    position: relative;
-    left: 13px;
-    bottom: -120px;
-    outline: 3px solid #000;
-    background-color: blue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    opacity: 0.8;
-    width: 90%;
-    border-radius: 30px 3px 30px 3px;
-    font-weight: 700;
+.card-text-U {
+  position: relative;
+  left: 13px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 3px 30px 3px;
+  font-weight: 700;
 }
 
 .card-text-C {
@@ -703,18 +732,17 @@ body {
 }
 
 .store-packs {
-    width: 100%;
-    margin-top: 1em;
-
+  width: 100%;
+  margin-top: 1em;
 }
 
 .store-packs h2 {
-    margin-bottom: .4em
+  margin-bottom: 0.4em;
 }
 
 .store-packs h2 {
-    text-align: center;
-    position: relative;
+  text-align: center;
+  position: relative;
 }
 
 .pack-options img {
@@ -739,76 +767,76 @@ button {
   font-size: 13px;
   font-family: Arial, sans-serif;
   cursor: pointer;
-  margin-top: .4em
+  margin-top: 0.4em;
 }
 
-button:hover{
+button:hover {
   transform: scale(1.1);
 }
 
 .profile-block {
-    height: 580px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #606dbc;
-    border-radius: 10px;
-    padding: 1em;
-    box-shadow: 2px 2px 4px #000;
-    margin-top: 1em;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #606dbc;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 2px 2px 4px #000;
+  margin-top: 1em;
 }
 
 .profile-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
 .profile-header img {
-    width: 75px;
-    height: 75px;
-    border-radius: 10%;
-    margin-right: 1em;
-    outline: 2px solid #000;
+  width: 75px;
+  height: 75px;
+  border-radius: 10%;
+  margin-right: 1em;
+  outline: 2px solid #000;
 }
 
 .profile-info {
-    text-align: left;
-    margin-bottom: 1em;
+  text-align: left;
+  margin-bottom: 1em;
 }
 
 .mecha-team-section {
-    text-align: center;
+  text-align: center;
 }
 
 .mecha-team {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
 }
 
 .mecha-team img {
-    width: 180px;
-    height: 250px;
-    margin: 8px 1em;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
+  width: 180px;
+  height: 250px;
+  margin: 8px 1em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
 }
 
 .card-item img {
   outline: 3px solid black;
-    width: 140px;
-    height: 200px;
-    margin: 0 1em;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
+  width: 140px;
+  height: 200px;
+  margin: 0 1em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 .card-collection {
@@ -816,15 +844,14 @@ button:hover{
   text-align: center;
   overflow-y: scroll;
   max-height: 432px;
-  min-height: 432px;
+  min-height: 55vh;
   margin-top: 20px;
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    position: relative;
-    font-family: Arial, sans-serif;
-
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: Arial, sans-serif;
 }
 
 .battle-screen {
@@ -834,30 +861,30 @@ button:hover{
   max-height: 558px;
   min-height: 558px;
   margin-top: 20px;
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    position: relative;
-    font-family: Arial, sans-serif;
-    outline: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
-    background-color: black;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: Arial, sans-serif;
+  outline: 3px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  background-color: black;
 }
 
 .card-item img:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    outline: 3px solid white;
-    box-shadow: 0 0 15px blue, 0 0 20px cyan;
+  transform: scale(1.1);
+  z-index: 2;
+  outline: 3px solid white;
+  box-shadow: 0 0 15px blue, 0 0 20px cyan;
 }
 
 .mecha-team img:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    outline: 3px solid white;
-    box-shadow: 0 0 15px blue, 0 0 20px cyan;
+  transform: scale(1.1);
+  z-index: 2;
+  outline: 3px solid white;
+  box-shadow: 0 0 15px blue, 0 0 20px cyan;
 }
 
 ::-webkit-scrollbar {
@@ -874,10 +901,8 @@ button:hover{
 }
 
 h4 {
-    cursor:default;
+  cursor: default;
 }
-
-
 
 .signup-form {
   max-height: 629px;
@@ -906,7 +931,7 @@ h4 {
 
 .signup-form input[type="submit"] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -940,7 +965,6 @@ form a {
   font-weight: bold;
 }
 
-
 .login-form-container {
   max-height: 628px;
   display: flex;
@@ -950,7 +974,6 @@ form a {
 }
 
 #login-form {
-
   padding: 20px;
   border-radius: 10px;
   width: 300px;
@@ -1010,17 +1033,17 @@ form a {
 }
 
 .log-out-button button {
-background-color: #4caf50;
+  background-color: #4caf50;
 }
 
 .log-out-button button:hover {
-background-color: #3e8e41;
-transform: scale(1.1);
+  background-color: #3e8e41;
+  transform: scale(1.1);
 }
 
 .gametitle {
   font-family: Arial, sans-serif;
-  cursor:default;
+  cursor: default;
 }
 
 // Shine effect
@@ -1041,8 +1064,20 @@ transform: scale(1.1);
   width: 100%;
   height: 100%;
   background: #fff;
-  background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(50%,rgba(255,255,255,.8)),to(rgba(255,255,255,0)));
-  background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.8) 50%,rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    color-stop(50%, rgba(255, 255, 255, 0.8)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
   pointer-events: none;
   z-index: 3;
   opacity: 0;
@@ -1057,7 +1092,7 @@ transform: scale(1.1);
   }
   50% {
     left: 25%;
-    opacity: .5;
+    opacity: 0.5;
   }
   100% {
     left: 100%;
@@ -1068,13 +1103,13 @@ transform: scale(1.1);
 .mech-lvl {
   padding: 4px;
   position: absolute;
-  left: 168px;;
+  left: 168px;
   top: 20px;
   font-size: 12px;
   background-color: transparent;
   color: #fff;
   font-family: Arial, sans-serif;
-  border-radius: 0 10px 10px 0
+  border-radius: 0 10px 10px 0;
 }
 
 /* Style the select elements */
@@ -1090,7 +1125,7 @@ select {
 
 /* Style the filter button */
 input[type="submit"] {
-  background-color: #4CAF50; /* match the background color of the website */
+  background-color: #4caf50; /* match the background color of the website */
   color: white; /* match the text color of the website */
   font-size: 14px; /* match the font size of the website */
   padding: 8px; /* adjust the padding to match the website */
@@ -1121,7 +1156,7 @@ input[type="submit"]:hover {
 }
 
 /* new code */
-.collection-filters form{
+.collection-filters form {
   display: flex;
   align-items: center;
 }
@@ -1132,7 +1167,7 @@ input[type="submit"]:hover {
 .card-L,
 .card-R,
 .card-C,
-.card-U{
+.card-U {
   overflow: hidden;
 }
 
@@ -1144,18 +1179,18 @@ input[type="submit"]:hover {
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
-.card-U:hover .shine{
+.card-U:hover .shine {
   display: block !important;
 }
 
-.card-item .cardShine{
+.card-item .cardShine {
   width: 140px;
   height: 200px;
   min-width: unset;
   min-height: unset;
 }
 
-.card-item .cardShine:hover{
+.card-item .cardShine:hover {
   transform: scale(1.1) !important;
   -webkit-transform: scale(1.1) !important;
   -moz-transform: scale(1.1) !important;
@@ -1185,17 +1220,18 @@ input[type="submit"]:hover {
 .card-item .setno-U,
 .card-item .card-text-C,
 .card-item .setno-C,
-.card-item .card-text-L{
-  zoom: .5;
+.card-item .card-text-R,
+.card-item .card-text-L {
+  zoom: 0.5;
 }
 
 .card-item .card-stats > div {
   left: 87%;
-  zoom: .5;
+  zoom: 0.5;
 }
 
 /* openCardBox */
-.openCardBox_after{
+.openCardBox_after {
   position: fixed;
   top: 0;
   left: 0;
@@ -1205,11 +1241,11 @@ input[type="submit"]:hover {
   z-index: 88;
 }
 
-.openCardBox_after.active{
+.openCardBox_after.active {
   display: block !important;
 }
 
-.openCardBox{
+.openCardBox {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -1224,11 +1260,11 @@ input[type="submit"]:hover {
   font-family: Arial, sans-serif;
   color: #fff;
   border-radius: 10px;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -1237,8 +1273,8 @@ input[type="submit"]:hover {
 
 .openCardBox .card-item .cardShine,
 .openCardBox .card-item img {
-  width: 200px;
-  height: 300px;
+  /* width: 200px; */
+  /* height: 300px; */
 }
 
 .openCardBox .card-item .card-name-R,
@@ -1255,8 +1291,8 @@ input[type="submit"]:hover {
 .openCardBox .card-item .stat-upgrade-slot2,
 .openCardBox .card-item .setno-R,
 .openCardBox .card-item .card-rarity-C,
-.openCardBox .card-item .card-name-C{
-  zoom: 1;
+.openCardBox .card-item .card-name-C {
+  /* zoom: 1; */
 }
 
 .openCardBox .card-item .card-stats > div {
@@ -1264,7 +1300,7 @@ input[type="submit"]:hover {
   zoom: 1;
 }
 
-.openCardBox.active{
+.openCardBox.active {
   opacity: 1 !important;
   visibility: visible !important;
   transform: translate(-50%, -50%) scale(2.5);
@@ -1274,9 +1310,8 @@ input[type="submit"]:hover {
   -o-transform: translate(-50%, -50%) scale(2.3);
 }
 
-
 .openCardBox .card-item img:hover,
-.openCardBox .cardShine:hover{
+.openCardBox .cardShine:hover {
   box-shadow: 2px 2px 4px #000;
   transform: scale(1) !important;
   -webkit-transform: scale(1) !important;
@@ -1285,4 +1320,17 @@ input[type="submit"]:hover {
   -o-transform: scale(1) !important;
   outline: 3px solid black !important;
   box-shadow: 0 0 15px blue, 0 0 20px cyan !important;
+}
+
+.cardShine .card-name-U,
+.cardShine .card-name-C,
+.cardShine .card-name-R,
+.cardShine .card-name-L{
+  padding-left: 25px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.openCardBox .shine{
+  display: block;
 }
