@@ -844,7 +844,7 @@ button:hover {
   text-align: center;
   overflow-y: scroll;
   max-height: 432px;
-  min-height: 55vh;
+  min-height: 432px;
   margin-top: 20px;
   justify-content: center;
   display: flex;
