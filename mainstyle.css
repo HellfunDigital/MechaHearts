@@ -117,11 +117,12 @@ body {
     position: relative;
     top: -110px;
     z-index: 1;
+    outline: 3px solid #000;
     width: 10%
 }
 
 ..card-R,.card-name-R,.card-rarity-L {
-    outline: 3px solid #000
+    outline: 2px solid #000
 }
 
 .card-R {
