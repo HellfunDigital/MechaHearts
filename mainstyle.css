@@ -124,6 +124,23 @@ body {
     background-repeat: no-repeat
 }
 
+.card-4 {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0 1em;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067618729455800340/AaronelpisAlso_rouge_female_character_Red_Sergeant_anime_style__b14fe244-aaf1-4872-84a0-cb019221f5bb.png);
+    background-size: cover;
+    cursor: pointer;
+    background-repeat: no-repeat
+}
+
 .card-name-L,.card-rarity-L {
     text-shadow: none;
     color: black;
