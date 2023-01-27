@@ -1108,6 +1108,8 @@ input[type="submit"]:hover {
   -moz-transform: scale(1.1) !important;
   -ms-transform: scale(1.1) !important;
   -o-transform: scale(1.1) !important;
+  outline: 3px solid white;
+  box-shadow: 0 0 15px blue, 0 0 20px cyan;
 }
 
 .card-item .card-name-R,
