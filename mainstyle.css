@@ -521,6 +521,7 @@ body {
         }
 
   .setno-R {
+    color: #fff;
     font-size: 10px;
     position: relative;
     bottom: 9px;
@@ -702,6 +703,11 @@ button:hover{
     border-radius: 10px;
     box-shadow: 2px 2px 4px #000;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
 }
 
 .card-collection {
@@ -1011,4 +1017,159 @@ input[type="submit"]:hover {
 
 #search-input:focus {
   border-color: #4caf50;
+}
+
+/* new code */
+.collection-filters form{
+  display: flex;
+  align-items: center;
+}
+
+.card-L,
+.card-R,
+.card-C,
+.card-U{
+  overflow: hidden;
+}
+
+.card-L:hover .shine,
+.card-R:hover .shine,
+.card-C:hover .shine,
+.card-U:hover .shine{
+  display: block !important;
+}
+
+.card-item .cardShine{
+  width: 140px;
+  height: 200px;
+  min-width: unset;
+  min-height: unset;
+}
+
+.card-item .cardShine:hover{
+  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
+}
+
+.card-item .card-name-R,
+.card-item .card-name-L,
+.card-item .card-rarity-L,
+.card-item .card-rarity-U,
+.card-item .card-name-U,
+.card-item .card-rarity-R,
+.card-item .card-type,
+.card-item .stat-pilot-slot,
+.card-item .stat-equipment-slot,
+.card-item .stat-upgrade-slot,
+.card-item .stat-equipment-slot2,
+.card-item .stat-upgrade-slot2,
+.card-item .setno-R,
+.card-item .card-rarity-C,
+.card-item .card-name-C,
+.card-item .setno-L,
+.card-item .card-text-U,
+.card-item .setno-U,
+.card-item .card-text-C,
+.card-item .setno-C,
+.card-item .card-text-L{
+  zoom: .5;
+}
+
+.card-item .card-stats > div {
+  left: 87%;
+  zoom: .5;
+}
+
+/* openCardBox */
+.openCardBox_after{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 88;
+}
+
+.openCardBox_after.active{
+  display: block !important;
+}
+
+.openCardBox{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.openCardBox .card-item .cardShine,
+.openCardBox .card-item img {
+  width: 240px;
+  height: 300px;
+}
+
+.openCardBox .card-item .card-name-R,
+.openCardBox .card-item .card-name-L,
+.openCardBox .card-item .card-rarity-L,
+.openCardBox .card-item .card-rarity-U,
+.openCardBox .card-item .card-name-U,
+.openCardBox .card-item .card-rarity-R,
+.openCardBox .card-item .card-type,
+.openCardBox .card-item .stat-pilot-slot,
+.openCardBox .card-item .stat-equipment-slot,
+.openCardBox .card-item .stat-upgrade-slot,
+.openCardBox .card-item .stat-equipment-slot2,
+.openCardBox .card-item .stat-upgrade-slot2,
+.openCardBox .card-item .setno-R,
+.openCardBox .card-item .card-rarity-C,
+.openCardBox .card-item .card-name-C{
+  zoom: 1;
+}
+
+.openCardBox .card-item .card-stats > div {
+  left: 87%;
+  zoom: 1;
+}
+
+.openCardBox.active{
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translate(-50%, -50%) scale(1.4);
+  -webkit-transform: translate(-50%, -50%) scale(1.4);
+  -moz-transform: translate(-50%, -50%) scale(1.4);
+  -ms-transform: translate(-50%, -50%) scale(1.4);
+  -o-transform: translate(-50%, -50%) scale(1.4);
+}
+
+
+.openCardBox .card-item img:hover,
+.openCardBox .cardShine:hover{
+  box-shadow: none !important;
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
 }

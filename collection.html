@@ -11,6 +11,9 @@
   </head>
   <body>
 
+    <div class="openCardBox_after" onclick="removeAfter(this)"></div>
+    <div class="openCardBox"></div>
+
     <div class="home-page">
       <div class="nav-bar">
         <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1061417607946846239/AaronelpisAlso_schematic_game_icon_47a4c6cd-0afa-42fc-8312-617dcc337a24.png" alt="Game Logo">
@@ -67,7 +70,144 @@
 
           <p id="no-card-found" style="display: none;font-size: 44px;">Card(s) Not Found...</p>
 
-          <div class="card-item" data-rarity="legendary" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" onclick="openCardBox(this)" data-rarity="legendary" data-type="mecha" data-collected="unacquired">
+            <div class="card-C cardShine">
+              <div class="card shine-overlay"></div>
+              <div class="card-name-C">
+                <p>Energy Core</p>
+              </div>
+              <div class="card-type">
+                <p>＋ Upgrade</p>
+              </div>
+              <div class="card-rarity-C">
+                <p>◉</p>
+              </div>
+              <div class="card-text-C"><p>Boost ⚔️ by 1</p></div>
+              <div class="setno-C"><p>(MHMU-61) - Mecha Uprising #61</p></div>
+              <div class="shine"></div>
+            </div>
+            <div class="card-info">
+              <h4>Omega-Mech</h4>
+              <p class='card-type-collection'>☸ Mecha</p>
+              <p class='card-rarity-collection'>✺ Legendary</p>
+              <p>MHMU-01</p>
+              <p>⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃</p>
+            </div>
+          </div>
+
+          <div class="card-item" onclick="openCardBox(this)" onclick="openCardBox(this)" data-rarity="legendary" data-type="mecha" data-collected="unacquired">
+            <div class="card-U cardShine">
+              <div class="card shine-overlay"></div>
+              <div class="card-name-U">
+                <p>Armor Plating</p>
+              </div>
+              <div class="card-type">
+                <p>♆ Equipment</p>
+              </div>
+              <div class="card-rarity-U">
+                <p>◈</p>
+              </div>
+              <div class="card-text-U"><p>Boost 🛡️ by 2</p></div>
+      
+              <div class="setno-U"><p>(MHMU-38) - Mecha Uprising #38</p></div>
+              <div class="shine"></div>
+            </div>
+            <div class="card-info">
+              <h4>Omega-Mech</h4>
+              <p class='card-type-collection'>☸ Mecha</p>
+              <p class='card-rarity-collection'>✺ Legendary</p>
+              <p>MHMU-01</p>
+              <p>⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃</p>
+            </div>
+          </div>
+
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="mecha" data-collected="unacquired">
+            <div class="card-L cardShine">
+              <div class="card shine-overlay"><div class="shine"></div></div>
+              <div class="card-name-L">
+                <p>Apex Pilot</p>
+              </div>
+              <div class="card-type">
+                <p>〷 Pilot</p>
+              </div>
+              <div class="card-rarity-L">
+                <p>✺</p>
+              </div>
+              <div class="card-text-L"><p>Boost ⚔️ & 🛡️ by 4</p></div>
+              <div class="setno-L"><p>(MHMU-02) - Mecha Uprising #2</p></div>
+              <div class="shine"></div>
+            </div>
+            <div class="card-info">
+              <h4>Omega-Mech</h4>
+              <p class='card-type-collection'>☸ Mecha</p>
+              <p class='card-rarity-collection'>✺ Legendary</p>
+              <p>MHMU-01</p>
+              <p>⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃</p>
+            </div>
+          </div>
+
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="mecha" data-collected="unacquired">
+            <div class="card-R cardShine">
+              <div class="card shine-overlay"></div>
+              <div class="card-name-R">
+                <p>Titan-Class</p>
+              </div>
+              <div class="card-type">
+                <p>☸ Mecha</p>
+              </div>
+              <div class="card-rarity-R">
+                <p>✭</p>
+              </div>
+              <div class="card-stats">
+                <div class="stat-attack">
+                  <p>8 ATK ⚔️</p>
+                </div>
+                <div class="stat-defence">
+                  <p>10 DEF 🛡️</p>
+                </div>
+                <div class="stat-speed">
+                  <p>4 SPD ⏱️</p>
+                </div>
+                <div class="stat-luck">
+                  <p>3 LUK 🍀</p>
+                </div>
+                <div class="stat-hp">
+                  <p>20 HP ❤️</p>
+                </div>
+                </div>
+                <div class="card-slots">
+                <div class="stat-pilot-slot">
+                  <p>👨&zwj;✈️</p>
+                </div>
+                <div class="stat-equipment-slot">
+                  <p>🛠️</p>
+                </div>
+                <div class="stat-equipment-slot2">
+                  <p>🛠️</p>
+                </div>
+                <div class="stat-upgrade-slot">
+                  <p>⚙️</p>
+                </div>
+                <div class="stat-upgrade-slot2">
+                  <p>⚙️</p>
+                </div>
+                <div class="mech-lvl">Lv. 1</div>
+              </div>
+      
+      
+              <div class="setno-R"><p>(MHMU-11) - Mecha Uprising #11</p></div>
+              <div class="shine"></div>
+            </div>
+            <div class="card-info">
+              <h4>Omega-Mech</h4>
+              <p class='card-type-collection'>☸ Mecha</p>
+              <p class='card-rarity-collection'>✺ Legendary</p>
+              <p>MHMU-01</p>
+              <p>⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃</p>
+            </div>
+          </div>
+
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="mecha" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067606282510553148/AaronelpisAlso_giant_mecha_90s_anime_detailed_the_old_west_west_5dff04fc-5c89-43f5-94bb-1cc5c0f9c5d1.png" alt="Card 1">
             <div class="card-info">
               <h4>Omega-Mech</h4>
@@ -78,7 +218,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314906235015269/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_8f2fdc2e-8820-4303-bd30-6a5d98a136be.png" alt="Card 1">
             <div class="card-info">
               <h4>Apex Pilot</h4>
@@ -89,7 +229,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067629078129152000/AaronelpisAlso_painting_with_detailed_background_b9da8dbe-460b-485f-8b9e-2bc5ac3dec0d.png" alt="Card 1">
             <div class="card-info">
               <h4>Horizon Grand Admiral</h4>
@@ -100,7 +240,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067618729455800340/AaronelpisAlso_rouge_female_character_Red_Sergeant_anime_style__b14fe244-aaf1-4872-84a0-cb019221f5bb.png" alt="Card 1">
             <div class="card-info">
               <h4>Red Wolves Colonel</h4>
@@ -111,7 +251,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067622014120120370/AaronelpisAlso_stoic_character_Blue_uniform_Aurora_General_anim_6e52197d-8fc7-4b4b-8520-8401396f6e05.png" alt="Card 1">
             <div class="card-info">
               <h4>Aurora General</h4>
@@ -122,7 +262,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067765708261433364/AaronelpisAlso_disco_mecha_mattle_anime_1cbb4fc5-605f-4de4-bd0c-349f8c968497.png" alt="Card 1">
             <div class="card-info">
               <h4>Quantum Cannon</h4>
@@ -133,7 +273,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067764904720871434/AaronelpisAlso_disco_mecha_mattle_anime_19fd88fa-cbae-4d99-b937-37c96f2e3637.png" alt="Card 1">
             <div class="card-info">
               <h4>Proton Shield</h4>
@@ -144,7 +284,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="legendary" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067616274009571338/AaronelpisAlso_Goliath_mecha_yellow_and_white_90s_anime_detaile_b64effc4-998d-4c01-a722-3333d8b7077a.png" alt="Card 1">
             <div class="card-info">
               <h4>Advanced AI</h4>
@@ -156,7 +296,7 @@
           </div>
 
 
-          <div class="card-item" data-rarity="legendary" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="legendary" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067759513920356362/AaronelpisAlso_power-core_device_energy_anime_72be4dfd-ad59-4c75-964d-f33dd171a289.png" alt="Card 1">
             <div class="card-info">
               <h4>Hyperdrive</h4>
@@ -167,7 +307,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="mecha" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067632957503852564/AaronelpisAlso_stoic_rouge_male_character_orange_and_white_Hori_db39a1d6-81b7-4a44-ae89-234bdfdf4bb2.png" alt="Card 1">
             <div class="card-info">
               <h4>Goliath-Class Mech</h4>
@@ -178,7 +318,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="mecha" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1063381310728568922/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_fc64e06f-864b-4a6d-9140-5e3e0650be7f.png" alt="Card 1">
             <div class="card-info">
               <h4>Titan-Class Mech</h4>
@@ -189,7 +329,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="mecha" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067762295448535090/AaronelpisAlso_shield_mecha_giant_shield_anime_3130eb93-f9b7-49e4-9739-1d19f2927582.png" alt="Card 1">
             <div class="card-info">
               <h4>Colossus-Class Mech</h4>
@@ -200,7 +340,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067741458607656991/AaronelpisAlso_cool_male_mecha_pilot_young_man_in_blue_royal_ju_fee43cf2-5dc8-4e65-90c1-e216d91ac3e9.png" alt="Card 1">
             <div class="card-info">
               <h4>Master Pilot</h4>
@@ -211,7 +351,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314047161864272/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_ac86d764-a9f8-4f6a-b7d4-989c4a6ddc5f.png" alt="Card 1">
             <div class="card-info">
               <h4>Ace Pilot</h4>
@@ -222,7 +362,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067630528888590366/AaronelpisAlso_character_painting_with_detailed_background_2347691a-52d7-4fa2-bf79-cddc450ab126.png" alt="Card 1">
             <div class="card-info">
               <h4>Horizon Lieutenant</h4>
@@ -233,7 +373,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067621442423885914/AaronelpisAlso_stoic_character_Blue_uniform_Horizon_Aurora_Gene_ffa98ed3-c683-4057-b155-72df7df6cf26.png" alt="Card 1">
             <div class="card-info">
               <h4>Red Wolves Sergeant</h4>
@@ -244,7 +384,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067617461303783494/AaronelpisAlso_male_pilot_anime_style_detailed_background_277f7c47-0147-459a-bcc1-0ee7adfe58fd.png" alt="Card 1">
             <div class="card-info">
               <h4>Aurora Commander</h4>
@@ -255,7 +395,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067624975449718866/AaronelpisAlso_epic_Plasma_Cannon_anime_mecha_38b5a624-e092-4de1-8119-d2e818535a68.png" alt="Card 1">
             <div class="card-info">
               <h4>Plasma Cannon</h4>
@@ -266,7 +406,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="equipment" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067613755283886090/AaronelpisAlso_Energy_Shield_anime_style_battle_game_art_clean__e7463d87-8106-44db-a7a9-c48494651acc.png" alt="Card 1">
             <div class="card-info">
               <h4>Energy Shield</h4>
@@ -277,7 +417,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067612999998775328/AaronelpisAlso_two_mecha_fighting_anime_style_boosters_engaged__03f1ba51-65ed-40b7-b782-b55636c00b7b.png" alt="Card 1">
             <div class="card-info">
               <h4>Laser Rifle</h4>
@@ -288,7 +428,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="equipment" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067741814926348338/AaronelpisAlso_cool_male_mecha_pilot_young_man_in_green_jumpsui_53160ec5-9988-49b1-9e90-135648b26dd8.png" alt="Card 1">
             <div class="card-info">
               <h4>Nano Armor</h4>
@@ -299,7 +439,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1052544423642271744/AaronelpisAlso_Human_Mecha_Pilot_in_action_with_pastel_colors_d_1a006449-a593-4210-9a85-67f65270ae5b.png" alt="Card 1">
             <div class="card-info">
               <h4>Jetpack</h4>
@@ -310,7 +450,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067611804177534997/AaronelpisAlso_two_mecha_fighting_anime_style_boosters_engaged__3a2f90f5-a49f-44b2-a50c-73328ddb0ec4.png?width=450&height=676" alt="Card 1">
             <div class="card-info">
               <h4>Reinforced Plating</h4>
@@ -321,7 +461,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1055561221954355260/AaronelpisAlso_mecha_hearts_anime_poster_Two_mecha_a_male_and_f_425ee070-063c-45ec-a37b-d0e9be44e6bd.png" alt="Card 1">
             <div class="card-info">
               <h4>Power Surge</h4>
@@ -332,7 +472,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067611571330764810/AaronelpisAlso_two_mecha_fighting_anime_style_boosters_engaged__775db6b8-32c8-41e6-8d72-1065d6e45ace.png" alt="Card 1">
             <div class="card-info">
               <h4>Overdrive</h4>
@@ -343,7 +483,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067613579546742824/AaronelpisAlso_Energy_Shield_anime_style_battle_game_art_clean__38cd9251-0b6f-4db4-b0ac-94e5799e15a3.png?width=450&height=676" alt="Card 1">
             <div class="card-info">
               <h4>Shield Generator</h4>
@@ -354,7 +494,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="rare" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067629001364996156/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_5837e67d-b2af-4947-9b65-6eecddaf189f.png" alt="Card 1">
             <div class="card-info">
               <h4>Targeting Array</h4>
@@ -365,7 +505,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="mecha" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067605594355269682/AaronelpisAlso_giant_mecha_90s_anime_the_old_west_western_epic__bd09a4c7-3c7d-4092-a978-8daae9179869.png" alt="Card 1">
             <div class="card-info">
               <h4>Warrior-Class Mech</h4>
@@ -377,7 +517,7 @@
           </div>
 
 
-          <div class="card-item" data-rarity="uncommon" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="mecha" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067605947121410108/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_1b4d294e-d2b3-414e-9c3c-876592f914c4.png" alt="Card 1">
             <div class="card-info">
               <h4>Assassin-Class Mech</h4>
@@ -388,7 +528,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="mecha" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067606636786634812/AaronelpisAlso_anime_style_mecha_Ironhands_roleplaying_game_art_dd666000-910a-4b89-838e-29073408c044.png" alt="Card 1">
             <div class="card-info">
               <h4>Knight-Class Mech</h4>
@@ -399,7 +539,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1062728760232779866/AaronelpisAlso_full_body_character_design_by_akira_toriyama_323ba079-0535-48bf-a1df-882cb31476e7.png" alt="Card 1">
             <div class="card-info">
               <h4>Expert Pilot</h4>
@@ -410,7 +550,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067746154885939250/AaronelpisAlso_full_body_character_design_by_akira_toriyama_0b2d5f15-9a23-420f-b931-e16bc5d6985e.png" alt="Card 1">
             <div class="card-info">
               <h4>Veteran Pilot</h4>
@@ -421,7 +561,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067747515341996043/AaronelpisAlso_full_body_character_design_by_akira_toriyama_9d5d0c1b-e36a-4bec-aba4-5184520297dc.png" alt="Card 1">
             <div class="card-info">
               <h4>Elite Pilot</h4>
@@ -432,7 +572,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1062357793438449735/AaronelpisAlso_full_body_character_design_by_akira_toriyama_a03241d2-c24c-4407-ad36-d0a67d39f01e.png" alt="Card 1">
             <div class="card-info">
               <h4>Horizon Private</h4>
@@ -443,7 +583,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1055562640761573376/AaronelpisAlso_female_mecha_pilot_young_woman_with_a_slender_an_98a23adc-febe-455f-9c17-efa715e04a58.png" alt="Card 1">
             <div class="card-info">
               <h4>Red Wolves Corporal</h4>
@@ -454,7 +594,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067746425749909524/AaronelpisAlso_female_character_detailed_background_d1704aa7-5e2e-4179-9c67-9f9a46ff1819.png" alt="Card 1">
             <div class="card-info">
               <h4>Aurora Ensign</h4>
@@ -465,7 +605,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067762531298459709/AaronelpisAlso_shield_mecha_giant_shield_anime_a2b664b7-c00e-4214-a9d2-293410f5426a.png" alt="Card 1">
             <div class="card-info">
               <h4>Thrusters</h4>
@@ -476,7 +616,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067720297551245362/AaronelpisAlso_anime_mecha_dodge_blast_war_battle_03f37b79-7998-4efe-b663-6eccd79e8496.png" alt="Card 1">
             <div class="card-info">
               <h4>Armor Plating</h4>
@@ -487,7 +627,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067605941383610378/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_f3fb5dca-eb93-48e8-b98b-4036bbd70412.png" alt="Card 1">
             <div class="card-info">
               <h4>Power Core</h4>
@@ -498,7 +638,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067725521913389146/AaronelpisAlso_fule-rod_device_energy_anime_eb74b567-0a89-4e62-a4dd-accb9b707f3e.png" alt="Card 1">
             <div class="card-info">
               <h4>Thruster Booster</h4>
@@ -509,7 +649,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067722966546255912/AaronelpisAlso_mech_Proton_Shield_in_action_anime_e0718876-5434-47d1-9410-cb7cb7037b28.png" alt="Card 1">
             <div class="card-info">
               <h4>Reinforced Frame</h4>
@@ -520,7 +660,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067724095283802234/AaronelpisAlso_Hyperdrive_thruster_boosters_fast_dodge_Hyperdri_d7466c79-57d3-4c8e-9dfc-ad64aee84770.png" alt="Card 1">
             <div class="card-info">
               <h4>Power Generator</h4>
@@ -531,7 +671,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067725203083362364/AaronelpisAlso_power-core_device_energy_anime_160d9980-13e4-4c0d-bc70-530b9c6570bd.png" alt="Card 1">
             <div class="card-info">
               <h4>Boosters</h4>
@@ -542,7 +682,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1049663796035190784/AaronelpisAlso_Flat_T-shirt_Design_of_a_mecha_anime_90s_anime_8_1a48e796-e401-4e80-8e30-85b8931b4ea5.png" alt="Card 1">
             <div class="card-info">
               <h4>Armor Reinforcement</h4>
@@ -553,7 +693,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067626217991319662/AaronelpisAlso_Plasma_Cannon_anime_8921679d-29bc-41fe-b88f-6f4e878ffcd1.png" alt="Card 1">
             <div class="card-info">
               <h4>Weapon Upgrade</h4>
@@ -564,7 +704,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067763616067108924/AaronelpisAlso_shield_mecha_giant_shield_anime_0e3b0069-f3ec-4e9e-9237-24b63c093887.png" alt="Card 1">
             <div class="card-info">
               <h4>Thruster Upgrade</h4>
@@ -575,7 +715,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067726107148812329/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_8f7e17a4-a5c3-44b8-ad96-35fd863120ca.png" alt="Card 1">
             <div class="card-info">
               <h4>Targeting Assist</h4>
@@ -586,7 +726,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="uncommon" data-type="upgrade" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067724065672024064/AaronelpisAlso_mecha_Emergency_Repair_df9504b2-7195-4662-bc48-2314b07afae7.png" alt="Card 1">
             <div class="card-info">
               <h4>Emergency Repair</h4>
@@ -597,7 +737,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="mecha" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067608448050667620/AaronelpisAlso_anime_style_mecha_Ironhands_roleplaying_game_art_205ae9d1-a341-4f17-acae-8a4376e4447d.png?width=450&height=676" alt="Card 1">
             <div class="card-info">
               <h4>Scout-Class Mech</h4>
@@ -608,7 +748,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="mecha" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067606623926878258/AaronelpisAlso_anime_style_mecha_Ironhands_roleplaying_game_art_487b095e-a92b-4d41-ae1f-1cf6b5a1b24d.png" alt="Card 1">
             <div class="card-info">
               <h4>Worker-Class Mech</h4>
@@ -619,7 +759,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="mecha" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067606265381007360/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_9cab19e6-4049-4e36-8041-5dd9fd259c12.png" alt="Card 1">
             <div class="card-info">
               <h4>Light-Class Mech</h4>
@@ -630,7 +770,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="mecha" data-collected="unacquired">
             <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1067609216279388270/AaronelpisAlso_anime_style_recon_mecha_Ironhands_roleplaying_ga_f4ca5b13-3ae9-485b-b954-c5c46cd99a1c.png" alt="Card 1">
             <div class="card-info">
               <h4>Recon-Class Mech</h4>
@@ -641,7 +781,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="mecha" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="mecha" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1063241965904347196/AaronelpisAlso_mecha_roleplaying_game_rulebook_cover_clean_mech_55ec6b15-8867-408d-addb-86a088002560.png" alt="Card 1">
             <div class="card-info">
               <h4>Patrol-Class Mech</h4>
@@ -652,7 +792,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="pilot" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="pilot" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1052545970153463869/AaronelpisAlso_three_very_diffrent_an_unique_young_boys_in_army_a0bead4f-acc2-4f2b-a028-e2bfdbe89086.png" alt="Card 1">
             <div class="card-info">
               <h4>Rookie Pilot</h4>
@@ -663,7 +803,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067725521913389146/AaronelpisAlso_fule-rod_device_energy_anime_eb74b567-0a89-4e62-a4dd-accb9b707f3e.png" alt="Card 1">
             <div class="card-info">
               <h4>Extra Fuel</h4>
@@ -674,7 +814,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067757744557391942/AaronelpisAlso_robot_Repair_Kit_anime_94662849-6b88-4be9-b648-a0cde8218239.png" alt="Card 1">
             <div class="card-info">
               <h4>Repair Kit</h4>
@@ -685,7 +825,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="equipment" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="equipment" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067628196561956914/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_4d67fea3-6019-4a4f-ad0d-be58a74894c1.png" alt="Card 1">
             <div class="card-info">
               <h4>Targeting System</h4>
@@ -696,7 +836,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067743200661487676/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_9ec9bc80-40ca-4731-b138-83fd7e2523ab.png" alt="Card 1">
             <div class="card-info">
               <h4>Fuel Optimization</h4>
@@ -707,7 +847,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067759491195621406/AaronelpisAlso_robot_Repair_Kit_anime_f0c1731a-e60c-4100-bbff-0f30b3c92c67.png" alt="Card 1">
             <div class="card-info">
               <h4>Minor Repair</h4>
@@ -718,7 +858,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1067628929587892225/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_60459321-d344-47e7-8d6c-00cc812ce099.png" alt="Card 1">
             <div class="card-info">
               <h4>Targeting Sensor</h4>
@@ -729,7 +869,7 @@
             </div>
           </div>
 
-          <div class="card-item" data-rarity="common" data-type="upgrade" data-collected="unacquired">
+          <div class="card-item" onclick="openCardBox(this)" data-rarity="common" data-type="upgrade" data-collected="unacquired">
             <img src="https://media.discordapp.net/attachments/1008320824064888914/1063384691966754827/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_a70ec374-3fc7-4310-b3a3-59b3bff4794e.png" alt="Card 1">
             <div class="card-info">
               <h4>Energy Core</h4>
@@ -802,6 +942,29 @@
       collectedFilter.addEventListener('change', applyFilters);
       searchInput.addEventListener('input', applyFilters);
 
+
+      // --------
+      function removeAfter(elem){
+        let openCardBox = document.querySelector(".openCardBox");
+        elem.classList.remove("active")
+        openCardBox.classList.remove("active")
+      }
+
+      function openCardBox(card){
+        let c = card.cloneNode(true);
+        if(c.querySelector(".card-info")){
+          c.querySelector(".card-info").remove()
+        }
+
+        console.log(c)
+        let openCardBox_after = document.querySelector(".openCardBox_after");
+        let openCardBox = document.querySelector(".openCardBox");
+
+        openCardBox_after.classList.add("active");
+        openCardBox.classList.add("active");
+        openCardBox.innerHTML = "";
+        openCardBox.appendChild(c);
+      }
 
 
       </script>
