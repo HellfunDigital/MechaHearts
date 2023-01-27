@@ -85,7 +85,7 @@ body {
     position: relative
 }
 
-.card-3,.card-4,.card-5,.card-L,.featured-cards h2 {
+.card-3,.card-4,.card-13,.card-5,.card-5,.card-L,.featured-cards h2 {
     text-align: center;
     position: relative
 }
@@ -152,6 +152,23 @@ body {
     box-shadow: 2px 2px 4px #000;
     outline: 3px solid #000;
     background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067622014120120370/AaronelpisAlso_stoic_character_Blue_uniform_Aurora_General_anim_6e52197d-8fc7-4b4b-8520-8401396f6e05.png);
+    background-size: cover;
+    cursor: pointer;
+    background-repeat: no-repeat
+}
+
+.card-13 {
+    width: 260px;
+    height: 400px;
+    min-width: 260px;
+    min-height: 400px;
+    margin: 0 1em;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+    outline: 3px solid #000;
+    background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067741458607656991/AaronelpisAlso_cool_male_mecha_pilot_young_man_in_blue_royal_ju_fee43cf2-5dc8-4e65-90c1-e216d91ac3e9.png);
     background-size: cover;
     cursor: pointer;
     background-repeat: no-repeat
@@ -643,6 +660,21 @@ body {
           text-shadow: none !important;
   }
 
+  .card-text-R {
+    position: relative;
+    left: 8px;
+    bottom: -30px;
+    outline: 3px solid #000;
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+    width: 90%;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+  }
 
   .card-text-U {
     position: relative;
@@ -1098,6 +1130,7 @@ input[type="submit"]:hover {
 .card-3,
 .card-4,
 .card-5,
+.card-13,
 .card-L,
 .card-R,
 .card-C,
@@ -1108,6 +1141,8 @@ input[type="submit"]:hover {
 .card-3:hover .shine,
 .card-4:hover .shine,
 .card-5:hover .shine,
+.card-5:hover .shine,
+.card-13:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
