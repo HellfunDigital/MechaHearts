@@ -24,18 +24,22 @@ body {
 .nav-bar {
     border-radius: 10px 10px 10px 0;
     display: flex;
+    height: 55px;
     justify-content: space-between;
     background: repeating-linear-gradient(180deg,#606dbc,#606dbc 10px,#465298 75px,#465298 75px);
-    outline: 1px solid #000;
+    outline: -8px solid #000;
     font-family: Arial, sans-serif;
     box-shadow: 2px 2px 4px #000
 }
 
 .nav-bar img {
+    margin-bottom: 8px;
     width: 50px;
     height: 50px;
     margin-right: 1em;
-    border-radius: 20%
+    border-radius: 20%;
+    outline: 1px solid white;
+    box-shadow: 2px 2px 4px #000
 }
 
 .nav-bar ul {
@@ -59,7 +63,7 @@ body {
 }
 
 .featured-cards {
-    height: 465px;
+    height: 466px;
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1em
@@ -621,7 +625,6 @@ body {
 .pack-options img {
   border: 2px solid #000;
   box-shadow: 2px 2px 5px #000;
-  background-color: #fff;
   width: 240px;
   height: 340px;
 }
