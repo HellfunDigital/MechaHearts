@@ -2069,16 +2069,17 @@ input[type="submit"]:hover {
 .card-item .card-name-C,
 .card-item .setno-L,
 .card-item .card-text-U,
+.card-item .card-text-U4,
 .card-item .setno-U,
 .card-item .card-text-C,
+.card-item .card-text-C2,
 .card-item .card-text-C3,
 .card-item .card-text-L3,
 .card-item .card-text-L4,
-.card-item .card-text-U4,
-.card-item .setno-C,
 .card-item .card-text-R,
 .card-item .card-text-U2,
-.card-item .card-text-C2,
+.card-item .card-text-U3,
+.card-item .setno-C,
 .card-item .card-text-L {
   zoom: 0.5;
 }
