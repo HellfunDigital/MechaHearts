@@ -610,6 +610,42 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-44 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1049663796035190784/AaronelpisAlso_Flat_T-shirt_Design_of_a_mecha_anime_90s_anime_8_1a48e796-e401-4e80-8e30-85b8931b4ea5.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-45 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1067626217991319662/AaronelpisAlso_Plasma_Cannon_anime_8921679d-29bc-41fe-b88f-6f4e878ffcd1.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-54 {
   width: 260px;
   height: 400px;
@@ -1323,6 +1359,22 @@ body {
   text-shadow: none !important;
 }
 
+.card-text-U4 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 3px 3px 3px 3px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
 .card-text-L3 {
   position: relative;
   left: 8px;
@@ -1968,6 +2020,7 @@ input[type="submit"]:hover {
 .card-item .card-text-C3,
 .card-item .card-text-L3,
 .card-item .card-text-L4,
+.card-item .card-text-U4,
 .card-item .setno-C,
 .card-item .card-text-R,
 .card-item .card-text-U2,
