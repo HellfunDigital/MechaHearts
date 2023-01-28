@@ -539,6 +539,23 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-55 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067725521913389146/AaronelpisAlso_fule-rod_device_energy_anime_eb74b567-0a89-4e62-a4dd-accb9b707f3e.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-56 {
   width: 260px;
   height: 400px;
