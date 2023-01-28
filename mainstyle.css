@@ -104,6 +104,11 @@ body {
 .card-16,
 .card-17,
 .card-31,
+.card-32,
+.card-33,
+.card-34,
+.card-35,
+.card-36,
 .card-5,
 .card-5,
 .card-L,
@@ -276,6 +281,91 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068696619878449232/AaronelpisAlso_Elite_Pilot_3ce7c427-62ef-4ae2-88dc-0c04eae9aae9.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-32 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068718001081290814/AaronelpisAlso_cool_guy_pilot_stoic_badass_rogue_07527e35-88bf-4cc1-b116-2b9cffde59be.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-33 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068703794164142110/AaronelpisAlso_male_mecha_pilot_5cc0aa18-4cc0-472e-b03a-5fca2059a0f4.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-34 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068695362002489364/AaronelpisAlso_male_mecha_pilot_775f5a4f-d78a-46fe-ba8d-b97060820027.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-35 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068701946699067453/AaronelpisAlso_Elite_cool_older_male_pilot_strong_dynamic_pose__2eac41a5-ade3-4ea0-b2b5-fa0805880640.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-36 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068699493651984434/AaronelpisAlso_beautiful_cool_attractive_badass_female_Elite_me_771b2c21-9e5a-4bf3-b3b3-05e1ca6aea54.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1259,6 +1349,11 @@ input[type="submit"]:hover {
 .card-16,
 .card-17,
 .card-31,
+.card-32,
+.card-33,
+.card-34,
+.card-35,
+.card-36,
 .card-L,
 .card-R,
 .card-C,
@@ -1276,6 +1371,11 @@ input[type="submit"]:hover {
 .card-16:hover .shine,
 .card-17:hover .shine,
 .card-31:hover .shine,
+.card-32:hover .shine,
+.card-33:hover .shine,
+.card-34:hover .shine,
+.card-35:hover .shine,
+.card-36:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
