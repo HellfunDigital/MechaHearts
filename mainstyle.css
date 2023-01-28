@@ -383,6 +383,40 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-18 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067624975449718866/AaronelpisAlso_epic_Plasma_Cannon_anime_mecha_38b5a624-e092-4de1-8119-d2e818535a68.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-19 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1067613755283886090/AaronelpisAlso_Energy_Shield_anime_style_battle_game_art_clean__e7463d87-8106-44db-a7a9-c48494651acc.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-31 {
   width: 260px;
   height: 400px;
@@ -1445,6 +1479,22 @@ body {
   text-shadow: none !important;
 }
 
+.card-text-R3 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 3px 30px 3px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
 .card-text-U {
   position: relative;
   left: 13px;
@@ -2075,6 +2125,7 @@ input[type="submit"]:hover {
 .card-item .card-text-C2,
 .card-item .card-text-C3,
 .card-item .card-text-L3,
+.card-item .card-text-R3,
 .card-item .card-text-L4,
 .card-item .card-text-R,
 .card-item .card-text-U2,
