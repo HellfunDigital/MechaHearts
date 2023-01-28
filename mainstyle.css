@@ -264,6 +264,40 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-8 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067616274009571338/AaronelpisAlso_Goliath_mecha_yellow_and_white_90s_anime_detaile_b64effc4-998d-4c01-a722-3333d8b7077a.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-9 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067759513920356362/AaronelpisAlso_power-core_device_energy_anime_72be4dfd-ad59-4c75-964d-f33dd171a289.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-13 {
   width: 260px;
   height: 400px;
@@ -1273,6 +1307,22 @@ body {
   text-shadow: 2px 2px 4px #000;
 }
 
+.card-text-L4 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: gold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 3px 3px 3px 3px;
+  font-weight: 700;
+  color: black;
+  text-shadow: none !important;
+}
+
 .card-text-L3 {
   position: relative;
   left: 8px;
@@ -1917,6 +1967,7 @@ input[type="submit"]:hover {
 .card-item .card-text-C,
 .card-item .card-text-C3,
 .card-item .card-text-L3,
+.card-item .card-text-L4,
 .card-item .setno-C,
 .card-item .card-text-R,
 .card-item .card-text-U2,
