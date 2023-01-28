@@ -2273,7 +2273,6 @@ input[type="submit"]:hover {
 .card-item .card-text-U,
 .card-item .card-text-U4,
 .card-item .card-text-R4,
-.card-item .setno-U,
 .card-item .card-text-C,
 .card-item .card-text-C2,
 .card-item .card-text-C3,
@@ -2284,6 +2283,7 @@ input[type="submit"]:hover {
 .card-item .card-text-U2,
 .card-item .card-text-U3,
 .card-item .setno-C,
+.card-item .setno-U,
 .card-item .card-text-L {
   zoom: 0.5;
 }
