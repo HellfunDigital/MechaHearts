@@ -539,6 +539,57 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-57 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067628196561956914/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_4d67fea3-6019-4a4f-ad0d-be58a74894c1.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-58 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067743200661487676/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_9ec9bc80-40ca-4731-b138-83fd7e2523ab.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-59 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067759491195621406/AaronelpisAlso_robot_Repair_Kit_anime_f0c1731a-e60c-4100-bbff-0f30b3c92c67.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-60 {
   width: 260px;
   height: 400px;
@@ -551,6 +602,24 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067628929587892225/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_60459321-d344-47e7-8d6c-00cc812ce099.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-61 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  position: relative;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1063384691966754827/AaronelpisAlso_Mecha_giant_mecha_90s_anime_the_old_west_western_a70ec374-3fc7-4310-b3a3-59b3bff4794e.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1095,6 +1164,22 @@ body {
   opacity: 0.8;
   width: 90%;
   border-radius: 30px 30px 30px 30px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.card-text-C3 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 3px 30px 3px;
   font-weight: 700;
   color: white;
   text-shadow: 2px 2px 4px #000;
@@ -1686,6 +1771,7 @@ input[type="submit"]:hover {
 .card-item .card-text-U,
 .card-item .setno-U,
 .card-item .card-text-C,
+.card-item .card-text-C3,
 .card-item .setno-C,
 .card-item .card-text-R,
 .card-item .card-text-U2,
