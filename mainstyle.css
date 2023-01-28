@@ -901,6 +901,38 @@ body {
   text-shadow: 2px 2px 4px #000;
 }
 
+.card-text-U2 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.card-text-C2 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
 .card-text-U {
   position: relative;
   left: 13px;
@@ -1441,6 +1473,8 @@ input[type="submit"]:hover {
 .card-item .card-text-C,
 .card-item .setno-C,
 .card-item .card-text-R,
+.card-item .card-text-U2,
+.card-item .card-text-C2,
 .card-item .card-text-L {
   zoom: 0.5;
 }
