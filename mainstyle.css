@@ -103,6 +103,7 @@ body {
 .card-15,
 .card-16,
 .card-17,
+.card-31,
 .card-5,
 .card-5,
 .card-L,
@@ -258,6 +259,23 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068726528894054450/AaronelpisAlso_cool_guy_pilot_stoic_badass_rogue_headband_blue__f98b1a67-f2a9-48b4-bd13-4b03a6ca2995.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-31 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068696619878449232/AaronelpisAlso_Elite_Pilot_3ce7c427-62ef-4ae2-88dc-0c04eae9aae9.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1240,6 +1258,7 @@ input[type="submit"]:hover {
 .card-15,
 .card-16,
 .card-17,
+.card-31,
 .card-L,
 .card-R,
 .card-C,
@@ -1256,6 +1275,7 @@ input[type="submit"]:hover {
 .card-15:hover .shine,
 .card-16:hover .shine,
 .card-17:hover .shine,
+.card-31:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
