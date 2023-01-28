@@ -468,6 +468,91 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-23 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067611804177534997/AaronelpisAlso_two_mecha_fighting_anime_style_boosters_engaged__3a2f90f5-a49f-44b2-a50c-73328ddb0ec4.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-24 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1055561221954355260/AaronelpisAlso_mecha_hearts_anime_poster_Two_mecha_a_male_and_f_425ee070-063c-45ec-a37b-d0e9be44e6bd.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-25 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067611571330764810/AaronelpisAlso_two_mecha_fighting_anime_style_boosters_engaged__775db6b8-32c8-41e6-8d72-1065d6e45ace.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-26 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067613579546742824/AaronelpisAlso_Energy_Shield_anime_style_battle_game_art_clean__38cd9251-0b6f-4db4-b0ac-94e5799e15a3.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-27 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067629001364996156/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_5837e67d-b2af-4947-9b65-6eecddaf189f.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-31 {
   width: 260px;
   height: 400px;
@@ -1514,6 +1599,22 @@ body {
   text-shadow: 2px 2px 4px #000;
 }
 
+.card-text-R4 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 3px 3px 3px 3px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
 .card-text-L3 {
   position: relative;
   left: 8px;
@@ -2171,6 +2272,7 @@ input[type="submit"]:hover {
 .card-item .setno-L,
 .card-item .card-text-U,
 .card-item .card-text-U4,
+.card-item .card-text-R4,
 .card-item .setno-U,
 .card-item .card-text-C,
 .card-item .card-text-C2,
