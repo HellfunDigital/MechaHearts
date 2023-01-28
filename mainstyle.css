@@ -539,6 +539,23 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-60 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067628929587892225/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_60459321-d344-47e7-8d6c-00cc812ce099.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-name-L,
 .card-rarity-L {
   text-shadow: none;
