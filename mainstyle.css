@@ -109,6 +109,7 @@ body {
 .card-34,
 .card-35,
 .card-36,
+.card-37,
 .card-54,
 .card-5,
 .card-5,
@@ -367,6 +368,23 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1068699493651984434/AaronelpisAlso_beautiful_cool_attractive_badass_female_Elite_me_771b2c21-9e5a-4bf3-b3b3-05e1ca6aea54.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-37 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067762531298459709/AaronelpisAlso_shield_mecha_giant_shield_anime_a2b664b7-c00e-4214-a9d2-293410f5426a.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1404,6 +1422,7 @@ input[type="submit"]:hover {
 .card-34,
 .card-35,
 .card-36,
+.card-37,
 .card-54,
 .card-L,
 .card-R,
@@ -1427,6 +1446,7 @@ input[type="submit"]:hover {
 .card-34:hover .shine,
 .card-35:hover .shine,
 .card-36:hover .shine,
+.card-37:hover .shine,
 .card-54:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
