@@ -646,6 +646,60 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-46 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067763616067108924/AaronelpisAlso_shield_mecha_giant_shield_anime_0e3b0069-f3ec-4e9e-9237-24b63c093887.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-47 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1067726107148812329/AaronelpisAlso_crosshair_targeting_a_mecha_target_locked_target_8f7e17a4-a5c3-44b8-ad96-35fd863120ca.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-48 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1067724065672024064/AaronelpisAlso_mecha_Emergency_Repair_df9504b2-7195-4662-bc48-2314b07afae7.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-54 {
   width: 260px;
   height: 400px;
