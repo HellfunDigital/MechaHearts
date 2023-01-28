@@ -298,6 +298,26 @@ body {
   background-repeat: no-repeat;
 }
 
+
+.card-12 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  position: relative;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067762295448535090/AaronelpisAlso_shield_mecha_giant_shield_anime_3130eb93-f9b7-49e4-9739-1d19f2927582.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  outline: 3px solid #000;
+}
+
 .card-13 {
   width: 260px;
   height: 400px;
