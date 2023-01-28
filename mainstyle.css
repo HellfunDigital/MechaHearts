@@ -100,6 +100,7 @@ body {
 .card-4,
 .card-13,
 .card-14,
+.card-15,
 .card-5,
 .card-5,
 .card-L,
@@ -204,6 +205,23 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/ephemeral-attachments/1008320824064888914/1063314047161864272/AaronelpisAlso_Stunning_mecha_painting_from_studio_ghibli_in_th_ac86d764-a9f8-4f6a-b7d4-989c4a6ddc5f.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-15 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067630528888590366/AaronelpisAlso_character_painting_with_detailed_background_2347691a-52d7-4fa2-bf79-cddc450ab126.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1183,6 +1201,7 @@ input[type="submit"]:hover {
 .card-5,
 .card-13,
 .card-14,
+.card-15,
 .card-L,
 .card-R,
 .card-C,
@@ -1196,6 +1215,7 @@ input[type="submit"]:hover {
 .card-5:hover .shine,
 .card-13:hover .shine,
 .card-14:hover .shine,
+.card-15:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
