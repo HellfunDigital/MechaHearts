@@ -486,6 +486,42 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-42 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067724095283802234/AaronelpisAlso_Hyperdrive_thruster_boosters_fast_dodge_Hyperdri_d7466c79-57d3-4c8e-9dfc-ad64aee84770.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-43 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067725203083362364/AaronelpisAlso_power-core_device_energy_anime_160d9980-13e4-4c0d-bc70-530b9c6570bd.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
 .card-54 {
   width: 260px;
   height: 400px;
