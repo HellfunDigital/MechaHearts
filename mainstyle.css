@@ -110,6 +110,30 @@ body {
 .card-35,
 .card-36,
 .card-37,
+.card-38,
+.card-39,
+.card-40,
+.card-41,
+.card-42,
+.card-43,
+.card-44,
+.card-45,
+.card-46,
+.card-47,
+.card-48,
+.card-49,
+.card-50,
+.card-51,
+.card-52,
+.card-53,
+.card-54,
+.card-55,
+.card-56,
+.card-57,
+.card-58,
+.card-59,
+.card-60,
+.card-61,
 .card-54,
 .card-5,
 .card-5,
@@ -385,6 +409,23 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067762531298459709/AaronelpisAlso_shield_mecha_giant_shield_anime_a2b664b7-c00e-4214-a9d2-293410f5426a.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-38 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067720297551245362/AaronelpisAlso_anime_mecha_dodge_blast_war_battle_03f37b79-7998-4efe-b663-6eccd79e8496.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1423,7 +1464,30 @@ input[type="submit"]:hover {
 .card-35,
 .card-36,
 .card-37,
+.card-38,
+.card-39,
+.card-40,
+.card-41,
+.card-42,
+.card-43,
+.card-44,
+.card-45,
+.card-46,
+.card-47,
+.card-48,
+.card-49,
+.card-50,
+.card-51,
+.card-52,
+.card-53,
 .card-54,
+.card-55,
+.card-56,
+.card-57,
+.card-58,
+.card-59,
+.card-60,
+.card-61,
 .card-L,
 .card-R,
 .card-C,
@@ -1447,7 +1511,30 @@ input[type="submit"]:hover {
 .card-35:hover .shine,
 .card-36:hover .shine,
 .card-37:hover .shine,
+.card-38:hover .shine,
+.card-39:hover .shine,
+.card-40:hover .shine,
+.card-41:hover .shine,
+.card-42:hover .shine,
+.card-43:hover .shine,
+.card-44:hover .shine,
+.card-45:hover .shine,
+.card-46:hover .shine,
+.card-47:hover .shine,
+.card-48:hover .shine,
+.card-49:hover .shine,
+.card-50:hover .shine,
+.card-51:hover .shine,
+.card-52:hover .shine,
+.card-53:hover .shine,
 .card-54:hover .shine,
+.card-55:hover .shine,
+.card-56:hover .shine,
+.card-57:hover .shine,
+.card-58:hover .shine,
+.card-59:hover .shine,
+.card-60:hover .shine,
+.card-61:hover .shine,
 .card-L:hover .shine,
 .card-R:hover .shine,
 .card-C:hover .shine,
