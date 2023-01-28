@@ -98,6 +98,8 @@ body {
 
 .card-3,
 .card-4,
+.card-5,
+.card-6,
 .card-13,
 .card-14,
 .card-15,
@@ -135,8 +137,6 @@ body {
 .card-60,
 .card-61,
 .card-54,
-.card-5,
-.card-5,
 .card-L,
 .featured-cards h2 {
   text-align: center;
@@ -193,6 +193,7 @@ body {
   cursor: pointer;
   background-repeat: no-repeat;
 }
+
 .card-5 {
   width: 260px;
   height: 400px;
@@ -205,6 +206,23 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067622014120120370/AaronelpisAlso_stoic_character_Blue_uniform_Aurora_General_anim_6e52197d-8fc7-4b4b-8520-8401396f6e05.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-6 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067765708261433364/AaronelpisAlso_disco_mecha_mattle_anime_1cbb4fc5-605f-4de4-bd0c-349f8c968497.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1219,6 +1237,22 @@ body {
   text-shadow: 2px 2px 4px #000;
 }
 
+.card-text-L3 {
+  position: relative;
+  left: 8px;
+  bottom: -120px;
+  outline: 3px solid #000;
+  background-color: gold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  width: 90%;
+  border-radius: 30px 3px 30px 3px;
+  font-weight: 700;
+  color: black;
+  text-shadow: none !important;
+}
+
 .card-text-U {
   position: relative;
   left: 13px;
@@ -1679,6 +1713,7 @@ input[type="submit"]:hover {
 .card-3,
 .card-4,
 .card-5,
+.card-6,
 .card-13,
 .card-14,
 .card-15,
@@ -1726,6 +1761,7 @@ input[type="submit"]:hover {
 .card-4:hover .shine,
 .card-5:hover .shine,
 .card-5:hover .shine,
+.card-6:hover .shine,
 .card-13:hover .shine,
 .card-14:hover .shine,
 .card-15:hover .shine,
@@ -1806,6 +1842,7 @@ input[type="submit"]:hover {
 .card-item .setno-U,
 .card-item .card-text-C,
 .card-item .card-text-C3,
+.card-item .card-text-L3,
 .card-item .setno-C,
 .card-item .card-text-R,
 .card-item .card-text-U2,
