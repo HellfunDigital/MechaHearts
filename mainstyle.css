@@ -425,7 +425,26 @@ body {
   background-color: #000;
   border-radius: 10px;
   box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067720297551245362/AaronelpisAlso_anime_mecha_dodge_blast_war_battle_03f37b79-7998-4efe-b663-6eccd79e8496.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-39 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://cdn.discordapp.com/attachments/1008320824064888914/1067605941383610378/AaronelpisAlso_giant_mecha_with_axe_90s_anime_the_old_west_west_f3fb5dca-eb93-48e8-b98b-4036bbd70412.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
