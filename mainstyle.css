@@ -100,6 +100,7 @@ body {
 .card-4,
 .card-5,
 .card-6,
+.card-7,
 .card-13,
 .card-14,
 .card-15,
@@ -223,6 +224,23 @@ body {
   box-shadow: 2px 2px 4px #000;
   outline: 3px solid #000;
   background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067765708261433364/AaronelpisAlso_disco_mecha_mattle_anime_1cbb4fc5-605f-4de4-bd0c-349f8c968497.png);
+  background-size: cover;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.card-7 {
+  width: 260px;
+  height: 400px;
+  min-width: 260px;
+  min-height: 400px;
+  margin: 0 1em;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  outline: 3px solid #000;
+  background-image: url(https://media.discordapp.net/attachments/1008320824064888914/1067764904720871434/AaronelpisAlso_disco_mecha_mattle_anime_19fd88fa-cbae-4d99-b937-37c96f2e3637.png);
   background-size: cover;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1714,6 +1732,7 @@ input[type="submit"]:hover {
 .card-4,
 .card-5,
 .card-6,
+.card-7,
 .card-13,
 .card-14,
 .card-15,
@@ -1762,6 +1781,7 @@ input[type="submit"]:hover {
 .card-5:hover .shine,
 .card-5:hover .shine,
 .card-6:hover .shine,
+.card-7:hover .shine,
 .card-13:hover .shine,
 .card-14:hover .shine,
 .card-15:hover .shine,
